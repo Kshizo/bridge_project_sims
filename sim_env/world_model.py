@@ -192,11 +192,22 @@ class MeshBridge:
 
         # --- structure samples (for look-at and clearance) ----------------------------
         res = cfg["safety"]["grid_resolution"]
-        self.struct_pts = np.concatenate([sample_tris(self.tris[p["name"]], res / 2.5, rng) for p in bridge_parts])
+        # obstacles: EVERY bridge part, also those outside scene.region (the region only limits what is surveyed)
+        every, _ = load_parts(sc["parts_dir"], sc.get("bridge_model"))
+        obst = [p for p in every if p["class"] in SUPER | SUB]
+        self.struct_pts = np.concatenate([sample_tris(self.tris[p["obj"]] if p["obj"] in self.tris else load_obj(p["obj"]),
+                                                      res / 2.5, rng) for p in obst])
+        reg = sc.get("region")
+        if reg:                                            # ...but only those near the region matter for the plan
+            mg = cfg["safety"]["grid_margin"]
+            near = lambda Q: np.all((Q[:, :2] >= np.array(reg["min"]) - mg) & (Q[:, :2] <= np.array(reg["max"]) + mg), axis=1)
+            self.struct_pts = self.struct_pts[near(self.struct_pts)]
         self.struct_tree = cKDTree(self.struct_pts)
         env_pts = [sample_tris(self.tris[p["name"]], res / 2.5, rng) for p in self.parts
                    if p["class"] in ENV_SOLID and p["name"] in self.tris]
         self.env_pts = np.concatenate(env_pts) if env_pts else np.zeros((0, 3))
+        if reg:
+            self.env_pts = self.env_pts[near(self.env_pts)]
         self.spawn, self.spawn_yaw = spawn_pose(sc["world_sdf"], sc["vehicle_model"])
 
     # --- frames ------------------------------------------------------------------------

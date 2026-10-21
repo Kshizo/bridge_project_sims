@@ -14,7 +14,7 @@ from world_model import sample_tris, load_parts
 cfg = load_config(sys.argv[1]); sc = cfg["scene"]
 plan = np.load(sys.argv[2] if len(sys.argv) > 2 else os.path.join(sc["out_dir"], "plan.npz"))
 P, tag, names = plan["P"], plan["tag"], plan["names"]
-parts, _ = load_parts(sc["parts_dir"], sc.get("bridge_model"), sc.get("region"))
+parts, _ = load_parts(sc["parts_dir"], sc.get("bridge_model"))   # all parts: the region only limits the survey
 rng = np.random.default_rng(0)
 lo, hi = P.min(0) - 6, P.max(0) + 6
 pts = []

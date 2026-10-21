@@ -15,7 +15,7 @@ from world_model import sample_tris, load_parts
 cfg = load_config(sys.argv[1]); sc = cfg["scene"]
 M = read_ply(sys.argv[2]) if sys.argv[2].endswith(".ply") else np.load(sys.argv[2]).astype(np.float64)
 M = voxel_down(M, 0.05)
-parts, _ = load_parts(sc["parts_dir"], sc.get("bridge_model"), sc.get("region"))
+parts, _ = load_parts(sc["parts_dir"], sc.get("bridge_model"))   # all parts: the region only limits the survey
 rng = np.random.default_rng(0)
 lo, hi = M.min(0) - 1, M.max(0) + 1
 S, E = [], []
