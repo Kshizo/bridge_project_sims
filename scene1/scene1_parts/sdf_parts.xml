@@ -1,0 +1,553 @@
+    <model name="scene1_bridge">
+      <static>true</static>
+      <link name="deck_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="deck_08">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/deck_08.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>1</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/deck_08.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_08">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_08.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_08.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_09">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_09.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_09.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_10">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_10.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_10.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_11">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_11.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_11.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_12">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_12.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_12.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_13">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_13.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_13.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_14">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_14.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_14.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_15">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_15.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_15.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_16">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_16.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_16.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_17">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_17.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_17.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_18">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_18.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_18.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_19">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_19.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_19.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_20">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_20.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_20.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_21">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_21.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_21.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_22">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_22.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_22.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_23">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_23.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_23.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="girder_24">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/girder_24.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>2</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/girder_24.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_08">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_08.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_08.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="cross_beam_09">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/cross_beam_09.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>3</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/cross_beam_09.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_cap_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_cap_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>4</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_cap_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="pier_column_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/pier_column_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>5</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/pier_column_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="abutment_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/abutment_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>7</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/abutment_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="abutment_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/abutment_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>7</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/abutment_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_08">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_08.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_08.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_09">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_09.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_09.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_10">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_10.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_10.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_11">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_11.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_11.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_12">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_12.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_12.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_13">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_13.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_13.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_14">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_14.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_14.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_15">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_15.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_15.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_16">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_16.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_16.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_17">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_17.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_17.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_18">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_18.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_18.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_19">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_19.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_19.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_20">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_20.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_20.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_21">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_21.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_21.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_22">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_22.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_22.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="railing_23">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/railing_23.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>8</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/railing_23.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_01">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_01.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_01.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_02">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_02.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_02.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_03">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_03.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_03.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_04">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_04.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_04.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_05">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_05.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_05.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_06">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_06.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_06.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_07">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_07.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_07.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_08">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_08.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_08.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_09">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_09.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_09.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_10">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_10.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_10.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_11">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_11.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_11.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_12">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_12.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_12.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_13">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_13.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_13.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_14">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_14.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_14.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_15">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_15.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_15.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_16">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_16.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_16.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_17">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_17.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_17.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_18">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_18.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_18.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_19">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_19.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_19.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_20">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_20.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_20.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_21">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_21.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_21.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_22">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_22.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_22.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_23">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_23.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_23.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_24">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_24.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_24.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_25">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_25.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_25.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_26">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_26.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_26.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_27">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_27.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_27.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_28">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_28.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_28.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_29">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_29.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_29.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_30">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_30.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_30.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_31">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_31.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_31.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_32">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_32.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_32.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_33">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_33.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_33.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_34">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_34.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_34.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_35">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_35.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_35.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_36">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_36.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_36.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_37">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_37.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_37.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_38">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_38.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_38.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_39">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_39.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_39.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_40">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_40.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_40.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_41">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_41.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_41.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_42">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_42.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_42.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_43">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_43.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_43.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_44">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_44.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_44.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_45">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_45.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_45.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_46">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_46.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_46.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_47">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_47.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_47.obj</uri></mesh></geometry></collision>
+      </link>
+      <link name="bearing_48">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/bearing_48.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>9</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/collision/bearing_48.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name="scene1_terrain">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/env_terrain.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>20</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/env_terrain.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name="scene1_water">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/env_water.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>21</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/env_water.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name="scene1_vehicle">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/env_vehicle.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>23</label></plugin></visual>
+      </link>
+    </model>
+
+    <model name="scene1_road">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/env_road.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>24</label></plugin></visual>
+        <collision name="collision"><geometry><mesh><uri>model://scene1_parts/env_road.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name="scene1_other">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual"><geometry><mesh><uri>model://scene1_parts/env_other.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>25</label></plugin></visual>
+      </link>
+    </model>

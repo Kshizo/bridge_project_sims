@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+scene*/output/
+scene*/pointcloud/
+*.npz
+*.npy

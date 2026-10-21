@@ -1,0 +1,224 @@
+# Scene-1 bridge inspection (289 m, 8-span girder bridge over a river). The drone side (planner, VIO, mapper, mission) only uses what the drone
+# measured: the point cloud prior_cloud (pc_b1, made by flight0), its own EKF / VIO, its sensors.
+# Ground truth (parts_dir meshes, Gazebo poses) is used only by the simulated world (sim_env/) and
+# the evaluation tools. This file only holds tunables.
+
+root: ..                       # repo root, relative to this file; relative paths below hang off it
+
+scene:
+  world_name: scene1_world
+  world_sdf: scene1/scene1_ardupilot.sdf
+  parts_dir: scene1/scene1_parts                       # GROUND TRUTH meshes: sim_env/ + evaluation/ only
+  prior_cloud: scene1/pointcloud/pc_b1.ply            # the bridge as mapped by flight0; every flight plan uses this
+  vehicle_model: iris                           # <include><name> of the drone in the world
+  gz_partition: scene1
+  out_dir: scene1/output                          # map, trajectory, logs, plan
+
+cloud_analysis:                # bridge_model.Bridge: geometry measured from the point cloud (no meshes / labels)
+  floor_cell: 1.0              # m, floor height map cell
+  floor_layer_gap: 2.5         # m, vertical gap that separates two layers of returns in a cell (e.g. water | deck)
+  floor_min_layer_points: 5    # a layer with fewer returns is noise
+  floor_min_window: 5.0        # m, min filter on the floor map (a pier is one solid layer from footing to deck)
+  struct_above_floor: 0.4      # m above the floor a point counts as structure
+  bridge_margin: 4.0           # m around the measured deck footprint that still counts as bridge (piers, caps, railings)
+  deck_cell: 0.5               # m, footprint grid
+  min_clearance_under: 3.0     # m of free height under a cell for it to be part of a deck
+  deck_min_area: 20.0          # m^2, smallest footprint piece kept
+  deck_height_tol: 1.5         # m, footprint pieces must be within this of the deck height
+  underside_gap: 0.6           # m, vertical gap that ends the superstructure when walking down
+  soffit_percentile: 15        # lowest undersides (girders) -> soffit; median -> deck bottom
+  support_search_margin: 3.0   # m around the deck footprint searched for piers / abutments
+  band_low: 0.8                # m above the floor: lower edge of the pier-detection band
+  band_frac: 0.6               # upper edge of the band, fraction of the clear height under the soffit
+  support_cell: 0.2            # m, grid for separating columns
+  support_min_points: 3
+  support_density_frac: 0.1    # a support cell needs this fraction of the typical (p90) surface point density
+  pier_min_size: 0.4           # m, thinner slivers (edges of walls, smear) are not piers
+  pier_max_size: 6.0           # m, a support up to this size in both directions is a pier (column or wall pier)
+  abutment_min_width_frac: 0.5 # a support this wide (fraction of deck width) is a wall
+  wall_min_fill: 0.75          # a wide component must be solid across this fraction of its width (else: a row of columns)
+  abutment_end_margin: 25.0    # m, the outermost wall within this of a deck end is that end's abutment
+  support_min_height_frac: 0.7 # a support's points must span this fraction of the band height (excludes slopes, debris)
+
+vehicle:
+  radius: 0.45                 # m, rotor tip circle (clearance is measured from the body centre)
+  takeoff_climb: 4.0           # m above the spawn point before joining the survey
+
+safety:
+  min_clearance: 1.6           # m from any structure / terrain / water to the drone centre
+  grid_resolution: 0.35        # m, occupancy grid for routing + clearance checks
+  grid_margin: 35.0            # m added around the bridge bounding box
+  astar_weight: 1.5            # weighted A* (1 = optimal routes, larger = faster search)
+  astar_max_nodes: 6000000
+
+survey:                        # all offsets relative to geometry found in parts.json
+  standoff_side: 6.0           # m from the deck edge for the longitudinal side passes
+  side_extension: 0.0          # m beyond the ends of the deck along the bridge axis (0: stop at the bridge's ends)
+  side_levels:                 # heights of the side passes
+    - {ref: floor, offset: 1.8}
+    - {ref: soffit, offset: -3.0}
+    - {ref: deck_top, offset: 0.0}
+  top_pass_offset: 2.0         # m above the highest railing (the highest the drone goes)
+  top_lane_spacing: 16.0       # m, one pass over the deck per this much deck width
+  # sections (span between two supports): one loop per level, flown top -> middle -> bottom
+  section_levels:
+    - {ref: pier_top, offset: -1.0}   # top of the pillars, just under the pier cap
+    - {ref: middle, offset: 0.0}      # halfway between the other levels
+    - {ref: floor, offset: 2.3}       # bottom of the pillars, above the footings / water (margin for map noise)
+  section_standoff: 2.0        # m in front of the pier faces at both ends of a section
+  section_side_standoff: 2.5   # m beyond the outer columns (keeps the loop's outer sides just outside the
+                               # GPS-denied zone, so VIO is re-anchored to GPS twice per loop)
+  abutment_standoff: 4.0       # m in front of the abutment face (end sections; clears the abutment footing)
+  pier_cluster_gap: 4.0        # m: columns closer than this along the axis belong to one pier
+
+motion:
+  v_max: 2.0                   # m/s on mapping passes (open air)
+  v_transit: 5.0               # m/s moving between passes (open air; still slowed near structure)
+  v_min: 0.6                   # m/s at min_clearance
+  slow_clearance: 4.0          # m: below this clearance speed ramps down to v_min
+  accel: 1.2                   # m/s^2
+  yaw_rate_max_deg: 45.0
+  yaw_mode: travel             # travel: face the direction of travel | look_at: face the nearest structure
+  yaw_smooth_m: 3.0            # m of path the heading is smoothed over
+  look_at_radius: 15.0         # m: yaw towards the nearest structure within this radius (yaw_mode look_at)
+  sample_step: 0.1             # m between path samples
+  track_tol_slow: 0.6          # m: the reference advances while the vehicle is this close (slow segments)
+  track_tol_fast: 1.0          # m: same, fast segments
+  track_stuck_s: 3.0           # s behind (but within track_tol_fast) after which the reference advances anyway
+  stall_abort_s: 30.0          # s without any progress along the route -> abort and return to the take-off point
+
+gps_denied:
+  # the zone is the deck footprint (from parts.json), grown by margin, below the deck soffit
+  footprint_margin: 1.0        # m added around the deck footprint
+  top_offset: 0.0              # m relative to the deck bottom
+  switch_lookahead: 6.0        # m of path before the zone at which the EKF switches to VIO
+  gps_recover_hold: 4.0        # s of healthy GPS after leaving the zone before switching back
+  vio_lost_retreat: 3.0        # s of VIO loss inside the zone before retracing the path back out
+
+vio:
+  rgbd_topic: /mapper/rgbd     # <topic> of the rgbd_camera in the drone model
+  camera_link: camera_link     # link holding the camera (pose read from the model SDF)
+  process_hz: 10
+  max_features: 400
+  min_inliers: 20
+  keyframe_min_tracked: 120
+  keyframe_max_translation: 1.5
+  keyframe_max_rotation_deg: 15
+  depth_range: [0.3, 25.0]
+  align_gain: 0.05             # low-pass gain aligning the VIO frame to GPS (xy) / EKF (z, yaw) while GPS is good
+  max_jump: 0.5                # m: PnP poses further than this (+ max_speed*dt) from the prediction are rejected
+  max_speed: 3.0               # m/s
+  max_rot_jump_deg: 8.0
+  unhealthy_after: 0.6         # s without a good PnP -> unhealthy (stop feeding ArduPilot)
+  reinit_after: 1.0            # s unhealthy with GPS available -> re-initialise from GPS
+  healthy_hold: 2.0            # s of continuous health before the mission trusts VIO
+  mavlink: udpin:0.0.0.0:14561
+
+sensor_noise:                  # Gazebo's IMU and RGB-D camera are noiseless; this makes the VIO's inputs realistic
+  enabled: true
+  seed: 1
+  gyro_std: 0.003              # rad/s white noise per IMU sample (MEMS gyro at 1 kHz)
+  gyro_bias_std: 0.002         # rad/s per axis, constant bias drawn at start (uncalibrated MEMS)
+  gyro_bias_walk: 0.0001       # rad/s/sqrt(s) bias random walk
+  pixel_std: 3.0               # grey levels of Gaussian image noise
+  depth_std_quadratic: 0.003   # depth sigma = k * z^2 (stereo / ToF-like: 1.2 cm at 2 m, 30 cm at 10 m)
+  depth_dropout: 0.03          # fraction of depth readings that come back invalid
+  autopilot:                   # ArduPilot SITL's own sensor noise (its IMU / baro, not the VIO's)
+    SIM_GYR1_RND: 0.1          # deg/s
+    SIM_ACC1_RND: 0.2          # m/s^2
+    SIM_BARO_RND: 0.2          # m
+
+mavlink:
+  mission: udpin:0.0.0.0:14560
+  gps_sim: udpin:0.0.0.0:14562
+  sitl_outputs: [udp:127.0.0.1:14560, udp:127.0.0.1:14561, udp:127.0.0.1:14562, udp:127.0.0.1:14563]
+
+mapping:                       # mapping/record_lidar.py: pose from the autopilot's EKF + ICP, no ground truth
+  lidar_link: lidar_link
+  lidar_topic: /mapper/lidar/points
+  rviz_config: mapping/bridge_map.rviz
+  mavlink: udpin:0.0.0.0:14563
+  voxel: 0.05                  # m, map resolution
+  display_voxel: 0.10          # m, RViz thinning
+  display_every_s: 3.0         # s between RViz map updates (structure only)
+  min_range: 0.6               # m, drops returns from the drone itself
+  max_range: 25.0             # m: keeps the map to the bridge and its immediate surroundings
+  pose_latency: 0.0            # s, extra delay subtracted from the scan's capture time when looking up the EKF pose
+  max_pose_extrapolation: 0.1  # s
+  clock_offset_samples: 300    # attitude messages used to measure the (constant) Gazebo - autopilot clock offset
+  save_every_s: 10
+  record_raw: true             # keep every scan (body frame, raw_voxel) + its EKF pose -> raw_scans/ for build_cloud.py
+  raw_voxel: 0.10
+  icp: false                   # live scan-to-map ICP (off: offline in build_cloud.py, where it can be checked)
+  icp_map_voxel: 0.10
+  icp_radius: 30.0             # m of map around the drone used for registration
+  icp_scan_voxel: 0.25
+  icp_iterations: 10
+  icp_max_corr: 1.0            # m, correspondence distance, shrinking to icp_min_corr
+  icp_min_corr: 0.15
+  icp_min_pairs: 200
+  icp_min_eig: 0.05            # directions with less normalised constraint than this are not corrected
+  icp_gps_pull: 0.05           # per scan, pull of the correction back to the EKF while GPS has a fix
+  icp_min_inlier: 0.5
+  icp_max_step: 0.5            # m, largest correction accepted per scan
+  icp_max_step_deg: 3.0
+  icp_rebuild_s: 2.0           # s between rebuilds of the registration map
+
+wind:                          # sim_env/wind_sim.py -> Gazebo WindEffects (the autopilot is not told)
+  enabled: true
+  seed: 2
+  mean_speed: 4.0              # m/s
+  from_deg: 60                 # compass direction the wind comes from (0 = north, 90 = east)
+  turbulence_std: 0.8          # m/s per horizontal axis
+  vertical_std: 0.3            # m/s
+  turbulence_tau: 2.0          # s correlation time
+  gust_speed: 3.0              # m/s on top of the mean, peak
+  gust_interval: 25.0          # s mean time between gusts
+  gust_duration: 4.0           # s
+  rate_hz: 10
+  drag: 0.35                   # 1/s, WindEffects force_approximation_scaling_factor: F = m * drag * (wind - v)
+
+cloud_cleaning:                # mapping/clean_cloud.py, applied when pc_b2 is written
+  outlier_k: 12
+  outlier_std: 2.0             # drop points whose mean neighbour distance is > mean + outlier_std * std
+  consolidate_k: 24            # neighbours for the local plane fit
+  planarity: 0.15              # smallest/middle eigenvalue below this = planar neighbourhood -> project onto it
+  consolidate_passes: 1
+  voxel: 0.05                  # m
+
+flight0:                       # bridge_autonomy/flight0.py: piloted mapping flight -> scene.prior_cloud (pc_b1)
+  pc_structure_voxel: 0.05     # m, pc_b2 resolution on structure
+  pc_surroundings_voxel: 0.5   # m, the coarse surroundings file (floor / banks for the planner, not part of the bridge)
+  pc_crop_margin: 25.0         # m of surroundings kept around the deck footprint
+
+evaluation:                    # sim_env/truth_monitor.py: referee only, nothing on the drone reads it
+  enabled: true
+
+camera_recording:              # mapping/record_camera.py: what the RGB-D camera sees -> <out_dir>/camera_*.mp4
+  enabled: true
+  depth: true                  # also a colourised depth video
+
+sitl:
+  ardupilot_dir: ~/ardupilot
+  ardupilot_gazebo_dir: ~/ardupilot_gazebo
+  vehicle: ArduCopter
+  frame: gazebo-iris
+  param_files:
+    - ~/ardupilot/Tools/autotest/default_params/copter.parm
+    - ~/ardupilot/Tools/autotest/default_params/gazebo-iris.parm
+  params:                      # extra params; VISO_POS_* are added from the camera link pose
+    SCHED_LOOP_RATE: 200       # sim runs < 1x real time with lidar + camera rendering
+    ARMING_SKIPCHK: 16         # wall-clock gyro-rate prearm check fails below 1x
+    VISO_TYPE: 1               # MAVLink external vision
+    VISO_DELAY_MS: 50
+    EK3_SRC1_POSXY: 3          # set 1: GPS
+    EK3_SRC1_VELXY: 3
+    EK3_SRC1_POSZ: 1
+    EK3_SRC1_VELZ: 3
+    EK3_SRC1_YAW: 1
+    EK3_SRC2_POSXY: 6          # set 2: external nav (VIO), baro height, compass yaw
+    EK3_SRC2_VELXY: 6
+    EK3_SRC2_POSZ: 1
+    EK3_SRC2_VELZ: 6
+    EK3_SRC2_YAW: 1
+    EK3_SRC_OPTIONS: 0

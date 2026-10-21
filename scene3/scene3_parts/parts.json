@@ -1,0 +1,4034 @@
+{
+ "scene": "scene3",
+ "labels": {
+  "deck": 1,
+  "girder": 2,
+  "cross_beam": 3,
+  "pier_cap": 4,
+  "pier_column": 5,
+  "footing": 6,
+  "abutment": 7,
+  "railing": 8,
+  "bearing": 9,
+  "arch_truss": 10,
+  "bridge_misc": 11,
+  "terrain": 20,
+  "water": 21,
+  "vegetation": 22,
+  "vehicle": 23,
+  "road": 24,
+  "other": 25,
+  "defect": 30
+ },
+ "parts": [
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_01",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_01.obj",
+   "centroid": [
+    9.736,
+    -145.685,
+    -5.456
+   ],
+   "bbox_min": [
+    -0.621,
+    -195.899,
+    -19.917
+   ],
+   "bbox_max": [
+    19.379,
+    -123.299,
+    -2.6
+   ],
+   "tris": 972,
+   "collision": [
+    "arch_truss_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_02",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_02.obj",
+   "centroid": [
+    -15.847,
+    -143.827,
+    -8.319
+   ],
+   "bbox_min": [
+    -24.723,
+    -200.899,
+    -23.9
+   ],
+   "bbox_max": [
+    -2.859,
+    -126.606,
+    -2.6
+   ],
+   "tris": 1457,
+   "collision": [
+    "arch_truss_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_03",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_03.obj",
+   "centroid": [
+    -17.199,
+    -112.406,
+    -9.296
+   ],
+   "bbox_min": [
+    -24.723,
+    -127.202,
+    -23.9
+   ],
+   "bbox_max": [
+    -2.859,
+    -52.899,
+    -2.6
+   ],
+   "tris": 1694,
+   "collision": [
+    "arch_truss_03.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_04",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_04.obj",
+   "centroid": [
+    13.943,
+    -111.221,
+    -10.351
+   ],
+   "bbox_min": [
+    -1.201,
+    -131.499,
+    -23.9
+   ],
+   "bbox_max": [
+    20.663,
+    -47.899,
+    -2.6
+   ],
+   "tris": 2177,
+   "collision": [
+    "arch_truss_04.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_05",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_05.obj",
+   "centroid": [
+    9.709,
+    41.083,
+    -5.446
+   ],
+   "bbox_min": [
+    -0.621,
+    -8.899,
+    -19.917
+   ],
+   "bbox_max": [
+    19.379,
+    63.701,
+    -2.6
+   ],
+   "tris": 960,
+   "collision": [
+    "arch_truss_05.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_06",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_06.obj",
+   "centroid": [
+    -15.621,
+    42.661,
+    -8.11
+   ],
+   "bbox_min": [
+    -24.643,
+    -13.899,
+    -23.9
+   ],
+   "bbox_max": [
+    -2.859,
+    60.101,
+    -2.6
+   ],
+   "tris": 1414,
+   "collision": [
+    "arch_truss_06.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_07",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_07.obj",
+   "centroid": [
+    -17.346,
+    74.23,
+    -9.438
+   ],
+   "bbox_min": [
+    -24.723,
+    59.101,
+    -23.9
+   ],
+   "bbox_max": [
+    -2.859,
+    134.101,
+    -2.6
+   ],
+   "tris": 1736,
+   "collision": [
+    "arch_truss_07.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "arch_truss_08",
+   "class": "arch_truss",
+   "label": 10,
+   "file": "arch_truss_08.obj",
+   "centroid": [
+    13.936,
+    75.677,
+    -10.334
+   ],
+   "bbox_min": [
+    -1.201,
+    55.501,
+    -23.9
+   ],
+   "bbox_max": [
+    20.663,
+    139.101,
+    -2.6
+   ],
+   "tris": 2191,
+   "collision": [
+    "arch_truss_08.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "bridge_misc_01",
+   "class": "bridge_misc",
+   "label": 11,
+   "file": "bridge_misc_01.obj",
+   "centroid": [
+    -6.776,
+    -281.0,
+    0.222
+   ],
+   "bbox_min": [
+    -7.344,
+    -281.0,
+    0.0
+   ],
+   "bbox_max": [
+    -6.208,
+    -281.0,
+    0.443
+   ],
+   "tris": 2,
+   "collision": [
+    "bridge_misc_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_01",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_01.obj",
+   "centroid": [
+    -20.265,
+    -464.14,
+    -7.142
+   ],
+   "bbox_min": [
+    -25.377,
+    -498.259,
+    -9.892
+   ],
+   "bbox_max": [
+    -15.058,
+    -428.246,
+    -5.541
+   ],
+   "tris": 3625,
+   "collision": [
+    "deck_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_02",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_02.obj",
+   "centroid": [
+    16.207,
+    -464.079,
+    -7.14
+   ],
+   "bbox_min": [
+    10.998,
+    -498.259,
+    -9.892
+   ],
+   "bbox_max": [
+    21.317,
+    -428.246,
+    -5.541
+   ],
+   "tris": 3625,
+   "collision": [
+    "deck_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_03",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_03.obj",
+   "centroid": [
+    -2.025,
+    -462.252,
+    1.434
+   ],
+   "bbox_min": [
+    -15.099,
+    -498.399,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    -423.399,
+    1.884
+   ],
+   "tris": 8242,
+   "collision": [
+    "deck_03_-1_-10.stl",
+    "deck_03_-1_-9.stl",
+    "deck_03_0_-10.stl",
+    "deck_03_0_-9.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_04",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_04.obj",
+   "centroid": [
+    -20.26,
+    -393.763,
+    -4.678
+   ],
+   "bbox_min": [
+    -25.377,
+    -428.301,
+    -7.449
+   ],
+   "bbox_max": [
+    -15.058,
+    -358.288,
+    -3.029
+   ],
+   "tris": 3749,
+   "collision": [
+    "deck_04.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_05",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_05.obj",
+   "centroid": [
+    16.199,
+    -393.713,
+    -4.677
+   ],
+   "bbox_min": [
+    10.998,
+    -428.301,
+    -7.449
+   ],
+   "bbox_max": [
+    21.317,
+    -358.288,
+    -3.029
+   ],
+   "tris": 3749,
+   "collision": [
+    "deck_05.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_06",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_06.obj",
+   "centroid": [
+    -2.038,
+    -392.762,
+    1.433
+   ],
+   "bbox_min": [
+    -15.106,
+    -433.399,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    -353.399,
+    1.884
+   ],
+   "tris": 8627,
+   "collision": [
+    "deck_06_-1_-9.stl",
+    "deck_06_-1_-8.stl",
+    "deck_06_0_-9.stl",
+    "deck_06_0_-8.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_07",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_07.obj",
+   "centroid": [
+    -20.876,
+    -324.659,
+    -2.279
+   ],
+   "bbox_min": [
+    -25.377,
+    -358.344,
+    -5.006
+   ],
+   "bbox_max": [
+    -15.058,
+    -288.331,
+    -0.621
+   ],
+   "tris": 3242,
+   "collision": [
+    "deck_07.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_08",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_08.obj",
+   "centroid": [
+    -2.044,
+    -323.905,
+    1.432
+   ],
+   "bbox_min": [
+    -15.106,
+    -363.399,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    -283.399,
+    1.884
+   ],
+   "tris": 8494,
+   "collision": [
+    "deck_08_-1_-8.stl",
+    "deck_08_-1_-7.stl",
+    "deck_08_-1_-6.stl",
+    "deck_08_0_-8.stl",
+    "deck_08_0_-7.stl",
+    "deck_08_0_-6.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_09",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_09.obj",
+   "centroid": [
+    16.547,
+    -324.092,
+    -2.253
+   ],
+   "bbox_min": [
+    10.998,
+    -358.344,
+    -5.006
+   ],
+   "bbox_max": [
+    21.317,
+    -288.331,
+    -0.621
+   ],
+   "tris": 3402,
+   "collision": [
+    "deck_09.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_10",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_10.obj",
+   "centroid": [
+    -22.371,
+    -256.523,
+    0.062
+   ],
+   "bbox_min": [
+    -25.377,
+    -288.387,
+    -2.563
+   ],
+   "bbox_max": [
+    -15.058,
+    -218.374,
+    1.88
+   ],
+   "tris": 2648,
+   "collision": [
+    "deck_10.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_11",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_11.obj",
+   "centroid": [
+    18.016,
+    -257.022,
+    0.052
+   ],
+   "bbox_min": [
+    10.998,
+    -288.387,
+    -2.563
+   ],
+   "bbox_max": [
+    21.317,
+    -218.374,
+    1.88
+   ],
+   "tris": 2763,
+   "collision": [
+    "deck_11.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_12",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_12.obj",
+   "centroid": [
+    -2.046,
+    -253.484,
+    1.428
+   ],
+   "bbox_min": [
+    -15.311,
+    -293.399,
+    -0.098
+   ],
+   "bbox_max": [
+    11.058,
+    -213.399,
+    1.884
+   ],
+   "tris": 8647,
+   "collision": [
+    "deck_12_-1_-6.stl",
+    "deck_12_-1_-5.stl",
+    "deck_12_0_-6.stl",
+    "deck_12_0_-5.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_13",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_13.obj",
+   "centroid": [
+    -1.977,
+    -173.189,
+    1.382
+   ],
+   "bbox_min": [
+    -25.149,
+    -223.399,
+    -0.115
+   ],
+   "bbox_max": [
+    21.089,
+    -28.399,
+    1.963
+   ],
+   "tris": 24280,
+   "collision": [
+    "deck_13_-1_-5.stl",
+    "deck_13_-1_-4.stl",
+    "deck_13_-1_-3.stl",
+    "deck_13_0_-5.stl",
+    "deck_13_0_-4.stl",
+    "deck_13_0_-3.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_14",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_14.obj",
+   "centroid": [
+    -2.003,
+    -33.784,
+    1.391
+   ],
+   "bbox_min": [
+    -25.149,
+    -218.399,
+    0.2
+   ],
+   "bbox_max": [
+    21.089,
+    156.601,
+    1.963
+   ],
+   "tris": 49084,
+   "collision": [
+    "deck_14_-1_-3.stl",
+    "deck_14_-1_-2.stl",
+    "deck_14_-1_-1.stl",
+    "deck_14_-1_0.stl",
+    "deck_14_-1_1.stl",
+    "deck_14_0_-3.stl",
+    "deck_14_0_-2.stl",
+    "deck_14_0_-1.stl",
+    "deck_14_0_0.stl",
+    "deck_14_0_1.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_15",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_15.obj",
+   "centroid": [
+    -2.01,
+    108.071,
+    1.389
+   ],
+   "bbox_min": [
+    -25.149,
+    -33.399,
+    0.2
+   ],
+   "bbox_max": [
+    21.089,
+    156.601,
+    1.963
+   ],
+   "tris": 25553,
+   "collision": [
+    "deck_15_-1_1.stl",
+    "deck_15_-1_2.stl",
+    "deck_15_-1_3.stl",
+    "deck_15_0_1.stl",
+    "deck_15_0_2.stl",
+    "deck_15_0_3.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_16",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_16.obj",
+   "centroid": [
+    -2.053,
+    191.14,
+    1.424
+   ],
+   "bbox_min": [
+    -15.311,
+    156.349,
+    -0.115
+   ],
+   "bbox_max": [
+    11.379,
+    226.601,
+    1.884
+   ],
+   "tris": 8680,
+   "collision": [
+    "deck_16_-1_3.stl",
+    "deck_16_-1_4.stl",
+    "deck_16_0_3.stl",
+    "deck_16_0_4.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_17",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_17.obj",
+   "centroid": [
+    -22.451,
+    192.661,
+    0.127
+   ],
+   "bbox_min": [
+    -25.377,
+    156.349,
+    -2.563
+   ],
+   "bbox_max": [
+    -15.05,
+    226.589,
+    1.963
+   ],
+   "tris": 2674,
+   "collision": [
+    "deck_17.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_18",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_18.obj",
+   "centroid": [
+    18.036,
+    193.868,
+    0.097
+   ],
+   "bbox_min": [
+    10.979,
+    156.517,
+    -2.563
+   ],
+   "bbox_max": [
+    21.317,
+    226.589,
+    1.963
+   ],
+   "tris": 2801,
+   "collision": [
+    "deck_18.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_19",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_19.obj",
+   "centroid": [
+    -20.964,
+    262.167,
+    -2.258
+   ],
+   "bbox_min": [
+    -25.377,
+    226.534,
+    -5.006
+   ],
+   "bbox_max": [
+    -15.058,
+    296.547,
+    -0.621
+   ],
+   "tris": 3192,
+   "collision": [
+    "deck_19.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_20",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_20.obj",
+   "centroid": [
+    -2.026,
+    261.584,
+    1.433
+   ],
+   "bbox_min": [
+    -15.099,
+    226.601,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    296.601,
+    1.884
+   ],
+   "tris": 8447,
+   "collision": [
+    "deck_20_-1_4.stl",
+    "deck_20_-1_5.stl",
+    "deck_20_0_4.stl",
+    "deck_20_0_5.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_21",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_21.obj",
+   "centroid": [
+    16.55,
+    261.596,
+    -2.23
+   ],
+   "bbox_min": [
+    10.998,
+    226.534,
+    -5.006
+   ],
+   "bbox_max": [
+    21.317,
+    296.547,
+    -0.621
+   ],
+   "tris": 3404,
+   "collision": [
+    "deck_21.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_22",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_22.obj",
+   "centroid": [
+    -2.003,
+    330.515,
+    1.435
+   ],
+   "bbox_min": [
+    -15.106,
+    296.601,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    366.601,
+    1.884
+   ],
+   "tris": 8646,
+   "collision": [
+    "deck_22_-1_5.stl",
+    "deck_22_-1_6.stl",
+    "deck_22_-1_7.stl",
+    "deck_22_0_5.stl",
+    "deck_22_0_6.stl",
+    "deck_22_0_7.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_23",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_23.obj",
+   "centroid": [
+    -20.261,
+    331.596,
+    -4.673
+   ],
+   "bbox_min": [
+    -25.377,
+    296.491,
+    -7.449
+   ],
+   "bbox_max": [
+    -15.058,
+    366.504,
+    -3.029
+   ],
+   "tris": 3785,
+   "collision": [
+    "deck_23.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_24",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_24.obj",
+   "centroid": [
+    16.211,
+    331.648,
+    -4.675
+   ],
+   "bbox_min": [
+    10.998,
+    296.491,
+    -7.449
+   ],
+   "bbox_max": [
+    21.317,
+    366.504,
+    -3.029
+   ],
+   "tris": 3785,
+   "collision": [
+    "deck_24.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_25",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_25.obj",
+   "centroid": [
+    -20.26,
+    402.273,
+    -7.139
+   ],
+   "bbox_min": [
+    -25.377,
+    366.448,
+    -9.892
+   ],
+   "bbox_max": [
+    -15.058,
+    436.461,
+    -5.541
+   ],
+   "tris": 3626,
+   "collision": [
+    "deck_25.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_26",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_26.obj",
+   "centroid": [
+    -2.028,
+    401.639,
+    1.432
+   ],
+   "bbox_min": [
+    -15.099,
+    366.601,
+    0.2
+   ],
+   "bbox_max": [
+    11.039,
+    436.601,
+    1.884
+   ],
+   "tris": 8624,
+   "collision": [
+    "deck_26_-1_7.stl",
+    "deck_26_-1_8.stl",
+    "deck_26_0_7.stl",
+    "deck_26_0_8.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "deck_27",
+   "class": "deck",
+   "label": 1,
+   "file": "deck_27.obj",
+   "centroid": [
+    16.205,
+    402.59,
+    -7.179
+   ],
+   "bbox_min": [
+    10.998,
+    366.448,
+    -12.57
+   ],
+   "bbox_max": [
+    21.317,
+    437.733,
+    -5.541
+   ],
+   "tris": 3653,
+   "collision": [
+    "deck_27.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_01",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_01.obj",
+   "centroid": [
+    -1.941,
+    -471.804,
+    -1.571
+   ],
+   "bbox_min": [
+    -12.95,
+    -499.58,
+    -2.6
+   ],
+   "bbox_max": [
+    8.89,
+    -428.399,
+    0.2
+   ],
+   "tris": 169,
+   "collision": [
+    "girder_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_02",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_02.obj",
+   "centroid": [
+    15.953,
+    -470.533,
+    -11.31
+   ],
+   "bbox_min": [
+    12.306,
+    -499.749,
+    -12.57
+   ],
+   "bbox_max": [
+    19.412,
+    -427.049,
+    -7.129
+   ],
+   "tris": 110,
+   "collision": [
+    "girder_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_03",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_03.obj",
+   "centroid": [
+    -19.91,
+    -470.321,
+    -11.302
+   ],
+   "bbox_min": [
+    -23.472,
+    -499.749,
+    -12.57
+   ],
+   "bbox_max": [
+    -16.366,
+    -427.049,
+    -7.129
+   ],
+   "tris": 110,
+   "collision": [
+    "girder_03.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_04",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_04.obj",
+   "centroid": [
+    15.867,
+    -422.553,
+    -9.581
+   ],
+   "bbox_min": [
+    12.306,
+    -429.749,
+    -10.127
+   ],
+   "bbox_max": [
+    19.412,
+    -358.202,
+    -4.686
+   ],
+   "tris": 77,
+   "collision": [
+    "girder_04.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_05",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_05.obj",
+   "centroid": [
+    -19.895,
+    -422.251,
+    -9.553
+   ],
+   "bbox_min": [
+    -23.472,
+    -429.749,
+    -10.127
+   ],
+   "bbox_max": [
+    -16.366,
+    -358.202,
+    -4.686
+   ],
+   "tris": 77,
+   "collision": [
+    "girder_05.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_06",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_06.obj",
+   "centroid": [
+    -1.954,
+    -400.136,
+    -1.539
+   ],
+   "bbox_min": [
+    -12.95,
+    -428.56,
+    -2.6
+   ],
+   "bbox_max": [
+    8.89,
+    -358.399,
+    0.2
+   ],
+   "tris": 164,
+   "collision": [
+    "girder_06.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_07",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_07.obj",
+   "centroid": [
+    -19.924,
+    -334.918,
+    -5.644
+   ],
+   "bbox_min": [
+    -23.472,
+    -358.299,
+    -7.484
+   ],
+   "bbox_max": [
+    -16.366,
+    -288.244,
+    -2.243
+   ],
+   "tris": 18,
+   "collision": [
+    "girder_07.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_08",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_08.obj",
+   "centroid": [
+    15.854,
+    -334.918,
+    -5.644
+   ],
+   "bbox_min": [
+    12.306,
+    -358.299,
+    -7.484
+   ],
+   "bbox_max": [
+    19.412,
+    -288.244,
+    -2.243
+   ],
+   "tris": 18,
+   "collision": [
+    "girder_08.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_09",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_09.obj",
+   "centroid": [
+    -4.742,
+    -316.667,
+    -1.753
+   ],
+   "bbox_min": [
+    -15.311,
+    -358.56,
+    -2.89
+   ],
+   "bbox_max": [
+    11.058,
+    -288.356,
+    0.2
+   ],
+   "tris": 770,
+   "collision": [
+    "girder_09.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_10",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_10.obj",
+   "centroid": [
+    -4.238,
+    -267.165,
+    -0.766
+   ],
+   "bbox_min": [
+    -15.311,
+    -288.56,
+    -2.6
+   ],
+   "bbox_max": [
+    11.058,
+    -218.399,
+    0.422
+   ],
+   "tris": 586,
+   "collision": [
+    "girder_10.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_11",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_11.obj",
+   "centroid": [
+    14.135,
+    -230.557,
+    -2.856
+   ],
+   "bbox_min": [
+    6.92,
+    -288.342,
+    -5.041
+   ],
+   "bbox_max": [
+    19.412,
+    -217.049,
+    0.2
+   ],
+   "tris": 72,
+   "collision": [
+    "girder_11.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_12",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_12.obj",
+   "centroid": [
+    -18.016,
+    -229.956,
+    -2.848
+   ],
+   "bbox_min": [
+    -23.472,
+    -288.342,
+    -5.041
+   ],
+   "bbox_max": [
+    -10.144,
+    -217.049,
+    0.2
+   ],
+   "tris": 76,
+   "collision": [
+    "girder_12.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_13",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_13.obj",
+   "centroid": [
+    -13.438,
+    -171.245,
+    -2.342
+   ],
+   "bbox_min": [
+    -25.149,
+    -218.56,
+    -2.66
+   ],
+   "bbox_max": [
+    2.903,
+    -33.399,
+    0.94
+   ],
+   "tris": 340,
+   "collision": [
+    "girder_13.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_14",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_14.obj",
+   "centroid": [
+    9.218,
+    -167.006,
+    -2.387
+   ],
+   "bbox_min": [
+    -6.563,
+    -218.56,
+    -2.66
+   ],
+   "bbox_max": [
+    19.412,
+    -28.399,
+    0.6
+   ],
+   "tris": 314,
+   "collision": [
+    "girder_14.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_15",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_15.obj",
+   "centroid": [
+    8.497,
+    -39.004,
+    -2.573
+   ],
+   "bbox_min": [
+    -0.621,
+    -218.399,
+    -2.66
+   ],
+   "bbox_max": [
+    19.459,
+    156.601,
+    0.2
+   ],
+   "tris": 234,
+   "collision": [
+    "girder_15.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_16",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_16.obj",
+   "centroid": [
+    -13.738,
+    -36.673,
+    -2.573
+   ],
+   "bbox_min": [
+    -23.519,
+    -218.399,
+    -2.66
+   ],
+   "bbox_max": [
+    -3.439,
+    156.601,
+    0.2
+   ],
+   "tris": 231,
+   "collision": [
+    "girder_16.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_17",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_17.obj",
+   "centroid": [
+    10.27,
+    97.406,
+    -2.586
+   ],
+   "bbox_min": [
+    -0.621,
+    -28.399,
+    -2.66
+   ],
+   "bbox_max": [
+    19.459,
+    156.601,
+    0.2
+   ],
+   "tris": 297,
+   "collision": [
+    "girder_17.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_18",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_18.obj",
+   "centroid": [
+    -13.593,
+    98.824,
+    -2.563
+   ],
+   "bbox_min": [
+    -23.519,
+    -33.399,
+    -2.66
+   ],
+   "bbox_max": [
+    -1.03,
+    156.601,
+    0.2
+   ],
+   "tris": 295,
+   "collision": [
+    "girder_18.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_19",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_19.obj",
+   "centroid": [
+    -17.89,
+    164.262,
+    -2.722
+   ],
+   "bbox_min": [
+    -23.472,
+    155.251,
+    -5.041
+   ],
+   "bbox_max": [
+    -6.963,
+    226.545,
+    0.6
+   ],
+   "tris": 96,
+   "collision": [
+    "girder_19.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_20",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_20.obj",
+   "centroid": [
+    14.668,
+    163.5,
+    -2.332
+   ],
+   "bbox_min": [
+    6.92,
+    155.251,
+    -5.041
+   ],
+   "bbox_max": [
+    21.089,
+    226.545,
+    0.94
+   ],
+   "tris": 106,
+   "collision": [
+    "girder_20.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_21",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_21.obj",
+   "centroid": [
+    -4.672,
+    199.339,
+    -0.78
+   ],
+   "bbox_min": [
+    -15.311,
+    156.44,
+    -2.6
+   ],
+   "bbox_max": [
+    19.379,
+    226.601,
+    0.6
+   ],
+   "tris": 655,
+   "collision": [
+    "girder_21.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_22",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_22.obj",
+   "centroid": [
+    -5.401,
+    252.314,
+    -1.75
+   ],
+   "bbox_min": [
+    -15.311,
+    226.44,
+    -2.89
+   ],
+   "bbox_max": [
+    11.058,
+    296.601,
+    0.2
+   ],
+   "tris": 822,
+   "collision": [
+    "girder_22.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_23",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_23.obj",
+   "centroid": [
+    -19.915,
+    268.46,
+    -5.394
+   ],
+   "bbox_min": [
+    -23.472,
+    226.447,
+    -7.484
+   ],
+   "bbox_max": [
+    -16.366,
+    296.502,
+    -2.243
+   ],
+   "tris": 20,
+   "collision": [
+    "girder_23.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_24",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_24.obj",
+   "centroid": [
+    15.863,
+    268.46,
+    -5.394
+   ],
+   "bbox_min": [
+    12.306,
+    226.447,
+    -7.484
+   ],
+   "bbox_max": [
+    19.412,
+    296.502,
+    -2.243
+   ],
+   "tris": 20,
+   "collision": [
+    "girder_24.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_25",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_25.obj",
+   "centroid": [
+    -1.984,
+    327.24,
+    -1.539
+   ],
+   "bbox_min": [
+    -12.95,
+    296.44,
+    -2.6
+   ],
+   "bbox_max": [
+    8.89,
+    366.601,
+    0.2
+   ],
+   "tris": 164,
+   "collision": [
+    "girder_25.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_26",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_26.obj",
+   "centroid": [
+    -19.89,
+    360.051,
+    -9.517
+   ],
+   "bbox_min": [
+    -23.472,
+    296.404,
+    -10.127
+   ],
+   "bbox_max": [
+    -16.366,
+    367.951,
+    -4.686
+   ],
+   "tris": 69,
+   "collision": [
+    "girder_26.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_27",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_27.obj",
+   "centroid": [
+    15.936,
+    359.713,
+    -9.506
+   ],
+   "bbox_min": [
+    12.306,
+    296.404,
+    -10.127
+   ],
+   "bbox_max": [
+    19.412,
+    367.951,
+    -4.686
+   ],
+   "tris": 69,
+   "collision": [
+    "girder_27.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_28",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_28.obj",
+   "centroid": [
+    -2.0,
+    404.099,
+    -1.523
+   ],
+   "bbox_min": [
+    -12.95,
+    366.44,
+    -2.6
+   ],
+   "bbox_max": [
+    8.89,
+    437.783,
+    0.2
+   ],
+   "tris": 195,
+   "collision": [
+    "girder_28.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_29",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_29.obj",
+   "centroid": [
+    15.937,
+    403.583,
+    -11.406
+   ],
+   "bbox_min": [
+    12.306,
+    365.251,
+    -15.313
+   ],
+   "bbox_max": [
+    19.412,
+    437.951,
+    -7.129
+   ],
+   "tris": 111,
+   "collision": [
+    "girder_29.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "girder_30",
+   "class": "girder",
+   "label": 2,
+   "file": "girder_30.obj",
+   "centroid": [
+    -19.972,
+    406.85,
+    -11.279
+   ],
+   "bbox_min": [
+    -23.472,
+    365.251,
+    -13.486
+   ],
+   "bbox_max": [
+    -16.366,
+    437.951,
+    -7.129
+   ],
+   "tris": 122,
+   "collision": [
+    "girder_30.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_01",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_01.obj",
+   "centroid": [
+    -19.868,
+    -498.594,
+    -15.839
+   ],
+   "bbox_min": [
+    -22.35,
+    -499.749,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.488,
+    -497.049,
+    -12.37
+   ],
+   "tris": 151,
+   "collision": [
+    "pier_column_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_02",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_02.obj",
+   "centroid": [
+    15.912,
+    -498.594,
+    -15.839
+   ],
+   "bbox_min": [
+    13.43,
+    -499.749,
+    -23.9
+   ],
+   "bbox_max": [
+    18.292,
+    -497.049,
+    -12.37
+   ],
+   "tris": 151,
+   "collision": [
+    "pier_column_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_03",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_03.obj",
+   "centroid": [
+    -2.025,
+    -498.4,
+    -7.88
+   ],
+   "bbox_min": [
+    -7.03,
+    -499.799,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    -496.999,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_03.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_04",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_04.obj",
+   "centroid": [
+    -19.865,
+    -428.44,
+    -15.332
+   ],
+   "bbox_min": [
+    -22.35,
+    -429.749,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.488,
+    -427.049,
+    -10.127
+   ],
+   "tris": 110,
+   "collision": [
+    "pier_column_04.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_05",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_05.obj",
+   "centroid": [
+    -2.025,
+    -428.4,
+    -7.88
+   ],
+   "bbox_min": [
+    -7.03,
+    -429.799,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    -426.999,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_05.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_06",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_06.obj",
+   "centroid": [
+    15.913,
+    -428.44,
+    -15.332
+   ],
+   "bbox_min": [
+    13.428,
+    -429.749,
+    -23.9
+   ],
+   "bbox_max": [
+    18.29,
+    -427.049,
+    -10.127
+   ],
+   "tris": 110,
+   "collision": [
+    "pier_column_06.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_07",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_07.obj",
+   "centroid": [
+    -19.904,
+    -358.409,
+    -10.556
+   ],
+   "bbox_min": [
+    -22.35,
+    -359.749,
+    -28.771
+   ],
+   "bbox_max": [
+    -17.488,
+    -357.049,
+    -7.471
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_07.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_08",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_08.obj",
+   "centroid": [
+    -2.025,
+    -358.4,
+    -7.88
+   ],
+   "bbox_min": [
+    -7.03,
+    -359.799,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    -356.999,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_08.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_09",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_09.obj",
+   "centroid": [
+    15.876,
+    -358.409,
+    -10.556
+   ],
+   "bbox_min": [
+    13.43,
+    -359.749,
+    -28.771
+   ],
+   "bbox_max": [
+    18.292,
+    -357.049,
+    -7.471
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_09.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_10",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_10.obj",
+   "centroid": [
+    -19.904,
+    -288.409,
+    -8.126
+   ],
+   "bbox_min": [
+    -22.35,
+    -289.749,
+    -26.341
+   ],
+   "bbox_max": [
+    -17.488,
+    -287.049,
+    -5.041
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_10.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_11",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_11.obj",
+   "centroid": [
+    -2.025,
+    -288.4,
+    -7.88
+   ],
+   "bbox_min": [
+    -7.03,
+    -289.799,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    -286.999,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_11.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_12",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_12.obj",
+   "centroid": [
+    15.876,
+    -288.409,
+    -8.126
+   ],
+   "bbox_min": [
+    13.43,
+    -289.749,
+    -26.341
+   ],
+   "bbox_max": [
+    18.292,
+    -287.049,
+    -5.041
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_12.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_13",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_13.obj",
+   "centroid": [
+    -20.285,
+    -218.253,
+    -6.542
+   ],
+   "bbox_min": [
+    -22.72,
+    -219.749,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.858,
+    -217.049,
+    -2.6
+   ],
+   "tris": 135,
+   "collision": [
+    "pier_column_13.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_14",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_14.obj",
+   "centroid": [
+    -12.398,
+    -218.3,
+    -6.33
+   ],
+   "bbox_min": [
+    -14.95,
+    -219.749,
+    -23.9
+   ],
+   "bbox_max": [
+    -10.088,
+    -217.049,
+    -2.6
+   ],
+   "tris": 143,
+   "collision": [
+    "pier_column_14.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_15",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_15.obj",
+   "centroid": [
+    -2.025,
+    -218.4,
+    -7.88
+   ],
+   "bbox_min": [
+    -7.03,
+    -219.799,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    -216.999,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_15.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_16",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_16.obj",
+   "centroid": [
+    7.924,
+    -218.322,
+    -6.231
+   ],
+   "bbox_min": [
+    5.631,
+    -219.749,
+    -23.9
+   ],
+   "bbox_max": [
+    10.493,
+    -217.049,
+    -2.6
+   ],
+   "tris": 147,
+   "collision": [
+    "pier_column_16.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_17",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_17.obj",
+   "centroid": [
+    15.836,
+    -218.253,
+    -6.542
+   ],
+   "bbox_min": [
+    13.401,
+    -219.749,
+    -23.9
+   ],
+   "bbox_max": [
+    18.263,
+    -217.049,
+    -2.6
+   ],
+   "tris": 135,
+   "collision": [
+    "pier_column_17.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_18",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_18.obj",
+   "centroid": [
+    -2.009,
+    -124.344,
+    -18.801
+   ],
+   "bbox_min": [
+    -24.643,
+    -137.458,
+    -23.9
+   ],
+   "bbox_max": [
+    20.583,
+    -111.339,
+    -16.189
+   ],
+   "tris": 1572,
+   "collision": [
+    "pier_column_18.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_19",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_19.obj",
+   "centroid": [
+    -2.037,
+    62.609,
+    -18.801
+   ],
+   "bbox_min": [
+    -24.643,
+    49.542,
+    -23.9
+   ],
+   "bbox_max": [
+    20.583,
+    75.661,
+    -16.189
+   ],
+   "tris": 1571,
+   "collision": [
+    "pier_column_19.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_20",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_20.obj",
+   "centroid": [
+    -20.273,
+    156.431,
+    -6.777
+   ],
+   "bbox_min": [
+    -22.72,
+    155.251,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.858,
+    157.951,
+    -2.6
+   ],
+   "tris": 127,
+   "collision": [
+    "pier_column_20.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_21",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_21.obj",
+   "centroid": [
+    -12.366,
+    156.477,
+    -6.511
+   ],
+   "bbox_min": [
+    -14.95,
+    155.251,
+    -23.9
+   ],
+   "bbox_max": [
+    -10.088,
+    157.951,
+    -2.6
+   ],
+   "tris": 136,
+   "collision": [
+    "pier_column_21.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_22",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_22.obj",
+   "centroid": [
+    15.848,
+    156.431,
+    -6.777
+   ],
+   "bbox_min": [
+    13.401,
+    155.251,
+    -23.9
+   ],
+   "bbox_max": [
+    18.263,
+    157.951,
+    -2.6
+   ],
+   "tris": 127,
+   "collision": [
+    "pier_column_22.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_23",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_23.obj",
+   "centroid": [
+    -2.025,
+    156.6,
+    -7.872
+   ],
+   "bbox_min": [
+    -7.03,
+    155.201,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    158.001,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_23.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_24",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_24.obj",
+   "centroid": [
+    7.878,
+    156.512,
+    -6.327
+   ],
+   "bbox_min": [
+    5.631,
+    155.251,
+    -23.9
+   ],
+   "bbox_max": [
+    10.493,
+    157.951,
+    -2.6
+   ],
+   "tris": 143,
+   "collision": [
+    "pier_column_24.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_25",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_25.obj",
+   "centroid": [
+    -19.904,
+    226.591,
+    -8.126
+   ],
+   "bbox_min": [
+    -22.35,
+    225.251,
+    -26.341
+   ],
+   "bbox_max": [
+    -17.488,
+    227.951,
+    -5.041
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_25.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_26",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_26.obj",
+   "centroid": [
+    -2.025,
+    226.6,
+    -7.872
+   ],
+   "bbox_min": [
+    -7.03,
+    225.201,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    228.001,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_26.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_27",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_27.obj",
+   "centroid": [
+    15.876,
+    226.591,
+    -8.126
+   ],
+   "bbox_min": [
+    13.43,
+    225.251,
+    -26.341
+   ],
+   "bbox_max": [
+    18.292,
+    227.951,
+    -5.041
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_27.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_28",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_28.obj",
+   "centroid": [
+    -19.904,
+    296.591,
+    -10.556
+   ],
+   "bbox_min": [
+    -22.35,
+    295.251,
+    -28.771
+   ],
+   "bbox_max": [
+    -17.488,
+    297.951,
+    -7.471
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_28.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_29",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_29.obj",
+   "centroid": [
+    -2.025,
+    296.6,
+    -7.872
+   ],
+   "bbox_min": [
+    -7.03,
+    295.201,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    298.001,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_29.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_30",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_30.obj",
+   "centroid": [
+    15.876,
+    296.591,
+    -10.556
+   ],
+   "bbox_min": [
+    13.43,
+    295.251,
+    -28.771
+   ],
+   "bbox_max": [
+    18.292,
+    297.951,
+    -7.471
+   ],
+   "tris": 174,
+   "collision": [
+    "pier_column_30.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_31",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_31.obj",
+   "centroid": [
+    -19.918,
+    366.643,
+    -15.332
+   ],
+   "bbox_min": [
+    -22.35,
+    365.251,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.488,
+    367.951,
+    -10.127
+   ],
+   "tris": 110,
+   "collision": [
+    "pier_column_31.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_32",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_32.obj",
+   "centroid": [
+    -2.025,
+    366.6,
+    -7.872
+   ],
+   "bbox_min": [
+    -7.03,
+    365.201,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    368.001,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_32.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_33",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_33.obj",
+   "centroid": [
+    15.86,
+    366.643,
+    -15.332
+   ],
+   "bbox_min": [
+    13.428,
+    365.251,
+    -23.9
+   ],
+   "bbox_max": [
+    18.29,
+    367.951,
+    -10.127
+   ],
+   "tris": 110,
+   "collision": [
+    "pier_column_33.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_34",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_34.obj",
+   "centroid": [
+    -19.866,
+    436.791,
+    -15.924
+   ],
+   "bbox_min": [
+    -22.35,
+    435.251,
+    -23.9
+   ],
+   "bbox_max": [
+    -17.488,
+    437.951,
+    -12.37
+   ],
+   "tris": 147,
+   "collision": [
+    "pier_column_34.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_35",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_35.obj",
+   "centroid": [
+    -2.025,
+    436.6,
+    -7.872
+   ],
+   "bbox_min": [
+    -7.03,
+    435.201,
+    -23.9
+   ],
+   "bbox_max": [
+    2.97,
+    438.001,
+    -2.6
+   ],
+   "tris": 596,
+   "collision": [
+    "pier_column_35.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "pier_column_36",
+   "class": "pier_column",
+   "label": 5,
+   "file": "pier_column_36.obj",
+   "centroid": [
+    15.922,
+    436.948,
+    -16.2
+   ],
+   "bbox_min": [
+    13.43,
+    435.251,
+    -23.9
+   ],
+   "bbox_max": [
+    18.292,
+    437.951,
+    -12.37
+   ],
+   "tris": 131,
+   "collision": [
+    "pier_column_36.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_01",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_01.obj",
+   "centroid": [
+    -15.303,
+    -377.382,
+    -3.618
+   ],
+   "bbox_min": [
+    -15.396,
+    -497.312,
+    -7.91
+   ],
+   "bbox_max": [
+    -15.196,
+    -257.451,
+    0.666
+   ],
+   "tris": 3694,
+   "collision": [
+    "railing_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_02",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_02.obj",
+   "centroid": [
+    11.24,
+    -377.382,
+    -3.618
+   ],
+   "bbox_min": [
+    11.134,
+    -497.312,
+    -7.91
+   ],
+   "bbox_max": [
+    11.334,
+    -257.451,
+    0.666
+   ],
+   "tris": 3694,
+   "collision": [
+    "railing_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_03",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_03.obj",
+   "centroid": [
+    -24.894,
+    -357.894,
+    -2.937
+   ],
+   "bbox_min": [
+    -25.0,
+    -497.312,
+    -7.91
+   ],
+   "bbox_max": [
+    -24.8,
+    -218.475,
+    2.027
+   ],
+   "tris": 4292,
+   "collision": [
+    "railing_03.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_04",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_04.obj",
+   "centroid": [
+    20.831,
+    -357.894,
+    -2.938
+   ],
+   "bbox_min": [
+    20.737,
+    -497.312,
+    -7.91
+   ],
+   "bbox_max": [
+    20.937,
+    -218.475,
+    2.027
+   ],
+   "tris": 4292,
+   "collision": [
+    "railing_04.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_05",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_05.obj",
+   "centroid": [
+    -14.855,
+    -349.746,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -498.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -201.868,
+    2.029
+   ],
+   "tris": 4568,
+   "collision": [
+    "railing_05.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_06",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_06.obj",
+   "centroid": [
+    10.795,
+    -346.897,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -498.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -197.868,
+    2.029
+   ],
+   "tris": 4660,
+   "collision": [
+    "railing_06.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_07",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_07.obj",
+   "centroid": [
+    -14.855,
+    -186.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -201.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -171.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_07.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_08",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_08.obj",
+   "centroid": [
+    10.795,
+    -182.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -197.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -167.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_08.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_09",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_09.obj",
+   "centroid": [
+    -14.854,
+    -156.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -171.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -141.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_09.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_10",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_10.obj",
+   "centroid": [
+    10.795,
+    -152.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -167.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -137.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_10.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_11",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_11.obj",
+   "centroid": [
+    -14.854,
+    -126.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -141.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -111.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_11.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_12",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_12.obj",
+   "centroid": [
+    10.794,
+    -122.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -137.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -107.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_12.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_13",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_13.obj",
+   "centroid": [
+    -14.855,
+    -96.282,
+    1.934
+   ],
+   "bbox_min": [
+    -14.961,
+    -111.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -81.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_13.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_14",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_14.obj",
+   "centroid": [
+    10.795,
+    -92.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -107.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -77.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_14.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_15",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_15.obj",
+   "centroid": [
+    -14.855,
+    -66.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -81.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -51.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_15.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_16",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_16.obj",
+   "centroid": [
+    10.794,
+    -62.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -77.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -47.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_16.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_17",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_17.obj",
+   "centroid": [
+    -14.854,
+    -36.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -51.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    -21.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_17.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_18",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_18.obj",
+   "centroid": [
+    -24.936,
+    -32.026,
+    1.999
+   ],
+   "bbox_min": [
+    -25.45,
+    -218.429,
+    1.903
+   ],
+   "bbox_max": [
+    -24.659,
+    156.525,
+    2.081
+   ],
+   "tris": 3018,
+   "collision": [
+    "railing_18.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_19",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_19.obj",
+   "centroid": [
+    -24.741,
+    -31.964,
+    1.604
+   ],
+   "bbox_min": [
+    -24.824,
+    -218.429,
+    1.536
+   ],
+   "bbox_max": [
+    -24.659,
+    156.525,
+    1.672
+   ],
+   "tris": 1162,
+   "collision": [
+    "railing_19.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_20",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_20.obj",
+   "centroid": [
+    -24.741,
+    -31.964,
+    1.236
+   ],
+   "bbox_min": [
+    -24.824,
+    -218.429,
+    1.168
+   ],
+   "bbox_max": [
+    -24.659,
+    156.525,
+    1.304
+   ],
+   "tris": 1162,
+   "collision": [
+    "railing_20.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_21",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_21.obj",
+   "centroid": [
+    10.795,
+    -32.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -47.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    -17.868,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_21.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_22",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_22.obj",
+   "centroid": [
+    20.681,
+    -31.964,
+    1.604
+   ],
+   "bbox_min": [
+    20.599,
+    -218.429,
+    1.536
+   ],
+   "bbox_max": [
+    20.764,
+    156.525,
+    1.672
+   ],
+   "tris": 1162,
+   "collision": [
+    "railing_22.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_23",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_23.obj",
+   "centroid": [
+    20.681,
+    -31.964,
+    1.236
+   ],
+   "bbox_min": [
+    20.599,
+    -218.429,
+    1.168
+   ],
+   "bbox_max": [
+    20.764,
+    156.525,
+    1.304
+   ],
+   "tris": 1162,
+   "collision": [
+    "railing_23.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_24",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_24.obj",
+   "centroid": [
+    20.876,
+    -32.026,
+    1.999
+   ],
+   "bbox_min": [
+    20.599,
+    -218.429,
+    1.903
+   ],
+   "bbox_max": [
+    21.39,
+    156.525,
+    2.081
+   ],
+   "tris": 3018,
+   "collision": [
+    "railing_24.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_25",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_25.obj",
+   "centroid": [
+    -14.854,
+    -6.282,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    -21.242,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    8.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_25.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_26",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_26.obj",
+   "centroid": [
+    10.794,
+    -2.282,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    -17.242,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    12.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_26.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_27",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_27.obj",
+   "centroid": [
+    -14.854,
+    23.718,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    8.758,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    38.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_27.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_28",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_28.obj",
+   "centroid": [
+    10.795,
+    27.718,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    12.758,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    42.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_28.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_29",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_29.obj",
+   "centroid": [
+    -14.855,
+    53.718,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    38.758,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    68.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_29.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_30",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_30.obj",
+   "centroid": [
+    10.795,
+    57.718,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    42.758,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    72.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_30.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_31",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_31.obj",
+   "centroid": [
+    -14.854,
+    83.718,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    68.758,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    98.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_31.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_32",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_32.obj",
+   "centroid": [
+    10.795,
+    87.718,
+    1.934
+   ],
+   "bbox_min": [
+    10.701,
+    72.758,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    102.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_32.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_33",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_33.obj",
+   "centroid": [
+    -14.854,
+    113.718,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    98.758,
+    1.829
+   ],
+   "bbox_max": [
+    -14.761,
+    128.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_33.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_34",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_34.obj",
+   "centroid": [
+    10.794,
+    117.718,
+    1.933
+   ],
+   "bbox_min": [
+    10.701,
+    102.758,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    132.132,
+    2.029
+   ],
+   "tris": 474,
+   "collision": [
+    "railing_34.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_35",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_35.obj",
+   "centroid": [
+    -14.845,
+    282.05,
+    1.933
+   ],
+   "bbox_min": [
+    -14.961,
+    128.758,
+    1.829
+   ],
+   "bbox_max": [
+    -14.75,
+    438.809,
+    2.029
+   ],
+   "tris": 4834,
+   "collision": [
+    "railing_35.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_36",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_36.obj",
+   "centroid": [
+    10.785,
+    284.825,
+    1.933
+   ],
+   "bbox_min": [
+    10.69,
+    132.758,
+    1.829
+   ],
+   "bbox_max": [
+    10.901,
+    438.809,
+    2.029
+   ],
+   "tris": 4742,
+   "collision": [
+    "railing_36.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_37",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_37.obj",
+   "centroid": [
+    -24.894,
+    296.096,
+    -2.938
+   ],
+   "bbox_min": [
+    -25.0,
+    156.678,
+    -7.91
+   ],
+   "bbox_max": [
+    -24.8,
+    435.515,
+    2.027
+   ],
+   "tris": 4292,
+   "collision": [
+    "railing_37.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_38",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_38.obj",
+   "centroid": [
+    20.831,
+    296.096,
+    -2.937
+   ],
+   "bbox_min": [
+    20.737,
+    156.678,
+    -7.91
+   ],
+   "bbox_max": [
+    20.937,
+    435.515,
+    2.027
+   ],
+   "tris": 4292,
+   "collision": [
+    "railing_38.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_39",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_39.obj",
+   "centroid": [
+    -15.303,
+    315.584,
+    -3.618
+   ],
+   "bbox_min": [
+    -15.396,
+    195.654,
+    -7.91
+   ],
+   "bbox_max": [
+    -15.196,
+    435.515,
+    0.666
+   ],
+   "tris": 3694,
+   "collision": [
+    "railing_39.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge",
+   "name": "railing_40",
+   "class": "railing",
+   "label": 8,
+   "file": "railing_40.obj",
+   "centroid": [
+    11.24,
+    315.584,
+    -3.618
+   ],
+   "bbox_min": [
+    11.134,
+    195.654,
+    -7.91
+   ],
+   "bbox_max": [
+    11.334,
+    435.515,
+    0.666
+   ],
+   "tris": 3694,
+   "collision": [
+    "railing_40.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "bridge_misc_01",
+   "class": "bridge_misc",
+   "label": 11,
+   "file": "b2_bridge_misc_01.obj",
+   "centroid": [
+    -315.038,
+    -56.992,
+    -17.721
+   ],
+   "bbox_min": [
+    -342.183,
+    -86.456,
+    -19.258
+   ],
+   "bbox_max": [
+    -280.85,
+    -31.966,
+    -15.838
+   ],
+   "tris": 1934,
+   "collision": [
+    "b2_bridge_misc_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "bridge_misc_02",
+   "class": "bridge_misc",
+   "label": 11,
+   "file": "b2_bridge_misc_02.obj",
+   "centroid": [
+    -236.467,
+    -117.381,
+    -17.652
+   ],
+   "bbox_min": [
+    -279.901,
+    -148.5,
+    -21.882
+   ],
+   "bbox_max": [
+    -184.503,
+    -76.395,
+    -15.832
+   ],
+   "tris": 2654,
+   "collision": [
+    "b2_bridge_misc_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "deck_01",
+   "class": "deck",
+   "label": 1,
+   "file": "b2_deck_01.obj",
+   "centroid": [
+    -259.75,
+    -89.641,
+    -17.924
+   ],
+   "bbox_min": [
+    -344.735,
+    -149.706,
+    -19.632
+   ],
+   "bbox_max": [
+    -180.173,
+    -30.8,
+    -15.808
+   ],
+   "tris": 14252,
+   "collision": [
+    "b2_deck_01_-7_-2.stl",
+    "b2_deck_01_-7_-1.stl",
+    "b2_deck_01_-6_-3.stl",
+    "b2_deck_01_-6_-2.stl",
+    "b2_deck_01_-6_-1.stl",
+    "b2_deck_01_-5_-3.stl",
+    "b2_deck_01_-5_-2.stl",
+    "b2_deck_01_-4_-3.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "girder_01",
+   "class": "girder",
+   "label": 2,
+   "file": "b2_girder_01.obj",
+   "centroid": [
+    -259.354,
+    -92.828,
+    -20.881
+   ],
+   "bbox_min": [
+    -342.46,
+    -148.965,
+    -22.545
+   ],
+   "bbox_max": [
+    -183.173,
+    -31.214,
+    -17.711
+   ],
+   "tris": 3968,
+   "collision": [
+    "b2_girder_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "pier_column_01",
+   "class": "pier_column",
+   "label": 5,
+   "file": "b2_pier_column_01.obj",
+   "centroid": [
+    -295.556,
+    -63.496,
+    -29.979
+   ],
+   "bbox_min": [
+    -305.365,
+    -67.409,
+    -48.744
+   ],
+   "bbox_max": [
+    -286.068,
+    -59.768,
+    -22.544
+   ],
+   "tris": 416,
+   "collision": [
+    "b2_pier_column_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "pier_column_02",
+   "class": "pier_column",
+   "label": 5,
+   "file": "b2_pier_column_02.obj",
+   "centroid": [
+    -229.21,
+    -116.452,
+    -30.395
+   ],
+   "bbox_min": [
+    -238.901,
+    -120.31,
+    -48.744
+   ],
+   "bbox_max": [
+    -219.605,
+    -112.669,
+    -22.544
+   ],
+   "tris": 394,
+   "collision": [
+    "b2_pier_column_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "railing_01",
+   "class": "railing",
+   "label": 8,
+   "file": "b2_railing_01.obj",
+   "centroid": [
+    -277.101,
+    -88.26,
+    -17.787
+   ],
+   "bbox_min": [
+    -342.023,
+    -147.749,
+    -21.692
+   ],
+   "bbox_max": [
+    -203.696,
+    -37.797,
+    -15.855
+   ],
+   "tris": 348,
+   "collision": [
+    "b2_railing_01.stl"
+   ]
+  },
+  {
+   "model": "scene3_bridge2",
+   "name": "railing_02",
+   "class": "railing",
+   "label": 8,
+   "file": "b2_railing_02.obj",
+   "centroid": [
+    -265.12,
+    -80.096,
+    -18.118
+   ],
+   "bbox_min": [
+    -327.75,
+    -144.655,
+    -21.692
+   ],
+   "bbox_max": [
+    -180.492,
+    -30.823,
+    -15.802
+   ],
+   "tris": 791,
+   "collision": [
+    "b2_railing_02.stl"
+   ]
+  },
+  {
+   "model": "scene3_vegetation",
+   "name": "env_vegetation",
+   "class": "vegetation",
+   "label": 22,
+   "file": "env_vegetation.obj",
+   "centroid": [
+    -2.03,
+    -28.327,
+    2.134
+   ],
+   "bbox_min": [
+    -2.19,
+    -491.959,
+    1.76
+   ],
+   "bbox_max": [
+    -1.87,
+    435.305,
+    2.504
+   ],
+   "tris": 129456,
+   "collision": []
+  },
+  {
+   "model": "scene3_water",
+   "name": "env_water",
+   "class": "water",
+   "label": 21,
+   "file": "env_water.obj",
+   "centroid": [
+    -161.67265,
+    -30.495000000000005,
+    -12.0
+   ],
+   "bbox_min": [
+    -644.735,
+    -649.799,
+    -12.0
+   ],
+   "bbox_max": [
+    321.3897,
+    588.809,
+    -12.0
+   ],
+   "tris": 2
+  },
+  {
+   "model": "scene3_defects",
+   "name": "defects",
+   "class": "defect",
+   "label": 30,
+   "file": "../scene3_defects/defects.obj",
+   "ground_truth": "../scene3_defects/defects_gt.json"
+  }
+ ]
+}

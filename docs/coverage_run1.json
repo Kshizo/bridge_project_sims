@@ -1,0 +1,348 @@
+{
+ "overall": 0.9275,
+ "tolerance_m": 0.1,
+ "sample_spacing_m": 0.1,
+ "map_points": 47260668,
+ "by_class": {
+  "abutment": 0.804,
+  "bearing": 0.9959,
+  "deck": 0.9181,
+  "footing": 0.689,
+  "girder": 0.9948,
+  "pier_cap": 0.8343,
+  "pier_column": 1.0,
+  "railing": 1.0
+ },
+ "parts": [
+  {
+   "name": "abutment_01",
+   "class": "abutment",
+   "visible_samples": 21315,
+   "coverage": 0.7963
+  },
+  {
+   "name": "abutment_02",
+   "class": "abutment",
+   "visible_samples": 21217,
+   "coverage": 0.8118
+  },
+  {
+   "name": "bearing_01",
+   "class": "bearing",
+   "visible_samples": 49,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_02",
+   "class": "bearing",
+   "visible_samples": 62,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_03",
+   "class": "bearing",
+   "visible_samples": 68,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_04",
+   "class": "bearing",
+   "visible_samples": 57,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_05",
+   "class": "bearing",
+   "visible_samples": 142,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_06",
+   "class": "bearing",
+   "visible_samples": 141,
+   "coverage": 0.9645
+  },
+  {
+   "name": "bearing_07",
+   "class": "bearing",
+   "visible_samples": 110,
+   "coverage": 0.9727
+  },
+  {
+   "name": "bearing_08",
+   "class": "bearing",
+   "visible_samples": 123,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_09",
+   "class": "bearing",
+   "visible_samples": 115,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_10",
+   "class": "bearing",
+   "visible_samples": 139,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_11",
+   "class": "bearing",
+   "visible_samples": 124,
+   "coverage": 0.9839
+  },
+  {
+   "name": "bearing_12",
+   "class": "bearing",
+   "visible_samples": 116,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_13",
+   "class": "bearing",
+   "visible_samples": 114,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_14",
+   "class": "bearing",
+   "visible_samples": 107,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_15",
+   "class": "bearing",
+   "visible_samples": 122,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_16",
+   "class": "bearing",
+   "visible_samples": 124,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_17",
+   "class": "bearing",
+   "visible_samples": 123,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_18",
+   "class": "bearing",
+   "visible_samples": 142,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_19",
+   "class": "bearing",
+   "visible_samples": 120,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_20",
+   "class": "bearing",
+   "visible_samples": 122,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_21",
+   "class": "bearing",
+   "visible_samples": 54,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_22",
+   "class": "bearing",
+   "visible_samples": 65,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_23",
+   "class": "bearing",
+   "visible_samples": 62,
+   "coverage": 1.0
+  },
+  {
+   "name": "bearing_24",
+   "class": "bearing",
+   "visible_samples": 42,
+   "coverage": 1.0
+  },
+  {
+   "name": "deck_01",
+   "class": "deck",
+   "visible_samples": 250382,
+   "coverage": 0.9181
+  },
+  {
+   "name": "footing_01",
+   "class": "footing",
+   "visible_samples": 6319,
+   "coverage": 0.2925
+  },
+  {
+   "name": "footing_02",
+   "class": "footing",
+   "visible_samples": 4489,
+   "coverage": 0.9523
+  },
+  {
+   "name": "footing_03",
+   "class": "footing",
+   "visible_samples": 4439,
+   "coverage": 0.98
+  },
+  {
+   "name": "footing_04",
+   "class": "footing",
+   "visible_samples": 4457,
+   "coverage": 0.9758
+  },
+  {
+   "name": "footing_05",
+   "class": "footing",
+   "visible_samples": 4437,
+   "coverage": 0.9527
+  },
+  {
+   "name": "footing_06",
+   "class": "footing",
+   "visible_samples": 6208,
+   "coverage": 0.2999
+  },
+  {
+   "name": "girder_01",
+   "class": "girder",
+   "visible_samples": 42466,
+   "coverage": 0.9951
+  },
+  {
+   "name": "girder_02",
+   "class": "girder",
+   "visible_samples": 42324,
+   "coverage": 0.9957
+  },
+  {
+   "name": "girder_03",
+   "class": "girder",
+   "visible_samples": 42782,
+   "coverage": 0.995
+  },
+  {
+   "name": "girder_04",
+   "class": "girder",
+   "visible_samples": 42908,
+   "coverage": 0.9933
+  },
+  {
+   "name": "pier_cap_01",
+   "class": "pier_cap",
+   "visible_samples": 4445,
+   "coverage": 0.9019
+  },
+  {
+   "name": "pier_cap_02",
+   "class": "pier_cap",
+   "visible_samples": 4473,
+   "coverage": 0.8976
+  },
+  {
+   "name": "pier_cap_03",
+   "class": "pier_cap",
+   "visible_samples": 4514,
+   "coverage": 0.7705
+  },
+  {
+   "name": "pier_cap_04",
+   "class": "pier_cap",
+   "visible_samples": 4496,
+   "coverage": 0.7687
+  },
+  {
+   "name": "pier_column_01",
+   "class": "pier_column",
+   "visible_samples": 2325,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_02",
+   "class": "pier_column",
+   "visible_samples": 2306,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_03",
+   "class": "pier_column",
+   "visible_samples": 2259,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_04",
+   "class": "pier_column",
+   "visible_samples": 2320,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_05",
+   "class": "pier_column",
+   "visible_samples": 2350,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_06",
+   "class": "pier_column",
+   "visible_samples": 2229,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_07",
+   "class": "pier_column",
+   "visible_samples": 2181,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_08",
+   "class": "pier_column",
+   "visible_samples": 2241,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_09",
+   "class": "pier_column",
+   "visible_samples": 2292,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_10",
+   "class": "pier_column",
+   "visible_samples": 2289,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_11",
+   "class": "pier_column",
+   "visible_samples": 2285,
+   "coverage": 1.0
+  },
+  {
+   "name": "pier_column_12",
+   "class": "pier_column",
+   "visible_samples": 2253,
+   "coverage": 1.0
+  },
+  {
+   "name": "railing_01",
+   "class": "railing",
+   "visible_samples": 20898,
+   "coverage": 1.0
+  },
+  {
+   "name": "railing_02",
+   "class": "railing",
+   "visible_samples": 19286,
+   "coverage": 1.0
+  }
+ ]
+}

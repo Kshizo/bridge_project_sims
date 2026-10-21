@@ -1,0 +1,2818 @@
+[
+ {
+  "name": "env_terrain",
+  "class": "terrain",
+  "label": 20,
+  "centroid": [
+   -98.682,
+   2.951,
+   7.033
+  ],
+  "bbox_min": [
+   -256.422,
+   -90.986,
+   0.0
+  ],
+  "bbox_max": [
+   84.538,
+   87.779,
+   12.037
+  ],
+  "tris": 277
+ },
+ {
+  "name": "env_water",
+  "class": "water",
+  "label": 21,
+  "centroid": [
+   -186.541,
+   -0.752,
+   6.58
+  ],
+  "bbox_min": [
+   -236.724,
+   -90.947,
+   6.58
+  ],
+  "bbox_max": [
+   47.693,
+   87.779,
+   6.58
+  ],
+  "tris": 13
+ },
+ {
+  "name": "env_vehicle",
+  "class": "vehicle",
+  "label": 23,
+  "centroid": [
+   -24.584,
+   -10.511,
+   11.796
+  ],
+  "bbox_min": [
+   -200.721,
+   -11.038,
+   11.458
+  ],
+  "bbox_max": [
+   66.288,
+   -9.988,
+   12.537
+  ],
+  "tris": 111675
+ },
+ {
+  "name": "env_road",
+  "class": "road",
+  "label": 24,
+  "centroid": [
+   -23.454,
+   -8.633,
+   11.433
+  ],
+  "bbox_min": [
+   -256.422,
+   -15.193,
+   6.655
+  ],
+  "bbox_max": [
+   84.538,
+   -2.346,
+   12.101
+  ],
+  "tris": 498
+ },
+ {
+  "name": "env_other",
+  "class": "other",
+  "label": 25,
+  "centroid": [
+   58.859,
+   -10.86,
+   11.964
+  ],
+  "bbox_min": [
+   57.238,
+   -14.302,
+   11.257
+  ],
+  "bbox_max": [
+   60.28,
+   -6.239,
+   13.363
+  ],
+  "tris": 31674
+ },
+ {
+  "name": "deck_01",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -216.809,
+   -7.891,
+   11.409
+  ],
+  "bbox_min": [
+   -232.0,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -196.035,
+   -6.147,
+   11.474
+  ],
+  "tris": 196
+ },
+ {
+  "name": "deck_02",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -174.825,
+   -8.569,
+   11.387
+  ],
+  "bbox_min": [
+   -196.035,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -160.154,
+   -6.147,
+   11.476
+  ],
+  "tris": 243
+ },
+ {
+  "name": "deck_03",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -140.905,
+   -8.863,
+   11.387
+  ],
+  "bbox_min": [
+   -160.154,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -124.504,
+   -6.147,
+   11.478
+  ],
+  "tris": 349
+ },
+ {
+  "name": "deck_04",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -102.087,
+   -9.32,
+   11.403
+  ],
+  "bbox_min": [
+   -124.504,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -88.623,
+   -6.147,
+   11.478
+  ],
+  "tris": 581
+ },
+ {
+  "name": "deck_05",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -74.459,
+   -9.481,
+   11.398
+  ],
+  "bbox_min": [
+   -88.623,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -52.973,
+   -6.147,
+   11.465
+  ],
+  "tris": 581
+ },
+ {
+  "name": "deck_06",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   -34.736,
+   -9.336,
+   11.379
+  ],
+  "bbox_min": [
+   -52.973,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   -17.092,
+   -6.147,
+   11.465
+  ],
+  "tris": 512
+ },
+ {
+  "name": "deck_07",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   1.391,
+   -9.281,
+   11.385
+  ],
+  "bbox_min": [
+   -17.092,
+   -11.628,
+   11.167
+  ],
+  "bbox_max": [
+   18.558,
+   -6.147,
+   11.465
+  ],
+  "tris": 540
+ },
+ {
+  "name": "deck_08",
+  "class": "deck",
+  "label": 1,
+  "centroid": [
+   30.402,
+   -9.337,
+   11.383
+  ],
+  "bbox_min": [
+   18.558,
+   -11.647,
+   11.167
+  ],
+  "bbox_max": [
+   56.66,
+   -6.127,
+   11.465
+  ],
+  "tris": 329
+ },
+ {
+  "name": "girder_01",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -212.176,
+   -10.562,
+   10.294
+  ],
+  "bbox_min": [
+   -231.965,
+   -10.962,
+   9.607
+  ],
+  "bbox_max": [
+   -196.035,
+   -10.12,
+   11.287
+  ],
+  "tris": 209
+ },
+ {
+  "name": "girder_02",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -214.277,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -231.604,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -196.508,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_03",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -212.724,
+   -7.05,
+   10.289
+  ],
+  "bbox_min": [
+   -231.965,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -196.035,
+   -6.931,
+   11.287
+  ],
+  "tris": 106
+ },
+ {
+  "name": "girder_04",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -176.3,
+   -10.601,
+   10.317
+  ],
+  "bbox_min": [
+   -196.035,
+   -10.962,
+   9.607
+  ],
+  "bbox_max": [
+   -160.154,
+   -10.12,
+   11.287
+  ],
+  "tris": 239
+ },
+ {
+  "name": "girder_05",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -178.512,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -195.839,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -160.743,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_06",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -177.791,
+   -7.047,
+   10.29
+  ],
+  "bbox_min": [
+   -196.035,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -160.154,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_07",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -141.792,
+   -10.563,
+   10.282
+  ],
+  "bbox_min": [
+   -160.154,
+   -10.963,
+   9.607
+  ],
+  "bbox_max": [
+   -124.504,
+   -10.12,
+   11.287
+  ],
+  "tris": 214
+ },
+ {
+  "name": "girder_08",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -142.746,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -160.073,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -124.977,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_09",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -141.702,
+   -7.047,
+   10.289
+  ],
+  "bbox_min": [
+   -160.154,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -124.504,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_10",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -104.888,
+   -10.59,
+   10.306
+  ],
+  "bbox_min": [
+   -124.504,
+   -10.963,
+   9.607
+  ],
+  "bbox_max": [
+   -88.623,
+   -10.12,
+   11.287
+  ],
+  "tris": 232
+ },
+ {
+  "name": "girder_11",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -106.981,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -124.308,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -89.212,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_12",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -106.26,
+   -7.047,
+   10.29
+  ],
+  "bbox_min": [
+   -124.504,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -88.623,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_13",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -70.26,
+   -10.563,
+   10.282
+  ],
+  "bbox_min": [
+   -88.623,
+   -10.957,
+   9.607
+  ],
+  "bbox_max": [
+   -52.973,
+   -10.12,
+   11.287
+  ],
+  "tris": 214
+ },
+ {
+  "name": "girder_14",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -71.216,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -88.542,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -53.446,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_15",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -70.171,
+   -7.047,
+   10.289
+  ],
+  "bbox_min": [
+   -88.623,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -52.973,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_16",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -32.952,
+   -10.599,
+   10.319
+  ],
+  "bbox_min": [
+   -52.973,
+   -10.957,
+   9.607
+  ],
+  "bbox_max": [
+   -17.092,
+   -10.12,
+   11.287
+  ],
+  "tris": 238
+ },
+ {
+  "name": "girder_17",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -35.45,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -52.776,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   -17.681,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_18",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   -34.728,
+   -7.047,
+   10.29
+  ],
+  "bbox_min": [
+   -52.973,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   -17.092,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_19",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   1.736,
+   -10.573,
+   10.291
+  ],
+  "bbox_min": [
+   -17.092,
+   -10.958,
+   9.607
+  ],
+  "bbox_max": [
+   18.558,
+   -10.12,
+   11.287
+  ],
+  "tris": 220
+ },
+ {
+  "name": "girder_20",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   0.315,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   -17.011,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   18.085,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_21",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   1.36,
+   -7.047,
+   10.289
+  ],
+  "bbox_min": [
+   -17.092,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   18.558,
+   -6.931,
+   11.287
+  ],
+  "tris": 109
+ },
+ {
+  "name": "girder_22",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   34.871,
+   -10.542,
+   10.303
+  ],
+  "bbox_min": [
+   18.558,
+   -10.958,
+   9.607
+  ],
+  "bbox_max": [
+   54.159,
+   -10.12,
+   11.287
+  ],
+  "tris": 197
+ },
+ {
+  "name": "girder_23",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   36.081,
+   -8.641,
+   10.29
+  ],
+  "bbox_min": [
+   18.754,
+   -9.343,
+   9.607
+  ],
+  "bbox_max": [
+   53.85,
+   -8.525,
+   11.287
+  ],
+  "tris": 102
+ },
+ {
+  "name": "girder_24",
+  "class": "girder",
+  "label": 2,
+  "centroid": [
+   35.96,
+   -7.052,
+   10.281
+  ],
+  "bbox_min": [
+   18.558,
+   -7.748,
+   9.607
+  ],
+  "bbox_max": [
+   54.159,
+   -6.931,
+   11.287
+  ],
+  "tris": 104
+ },
+ {
+  "name": "cross_beam_01",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -231.099,
+   -9.082,
+   10.012
+  ],
+  "bbox_min": [
+   -231.965,
+   -10.937,
+   9.607
+  ],
+  "bbox_max": [
+   -229.404,
+   -6.931,
+   11.287
+  ],
+  "tris": 18
+ },
+ {
+  "name": "cross_beam_02",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -195.962,
+   -9.713,
+   10.209
+  ],
+  "bbox_min": [
+   -198.708,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -193.639,
+   -6.931,
+   11.287
+  ],
+  "tris": 54
+ },
+ {
+  "name": "cross_beam_03",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -160.185,
+   -9.511,
+   10.13
+  ],
+  "bbox_min": [
+   -162.943,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -157.873,
+   -6.931,
+   11.287
+  ],
+  "tris": 53
+ },
+ {
+  "name": "cross_beam_04",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -124.431,
+   -9.714,
+   10.209
+  ],
+  "bbox_min": [
+   -127.177,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -122.108,
+   -6.931,
+   11.287
+  ],
+  "tris": 54
+ },
+ {
+  "name": "cross_beam_05",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -88.646,
+   -9.511,
+   10.114
+  ],
+  "bbox_min": [
+   -91.412,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -86.342,
+   -6.931,
+   11.287
+  ],
+  "tris": 52
+ },
+ {
+  "name": "cross_beam_06",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -52.901,
+   -9.713,
+   10.209
+  ],
+  "bbox_min": [
+   -55.646,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -50.576,
+   -6.931,
+   11.287
+  ],
+  "tris": 54
+ },
+ {
+  "name": "cross_beam_07",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   -17.117,
+   -9.511,
+   10.114
+  ],
+  "bbox_min": [
+   -19.881,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   -14.811,
+   -6.931,
+   11.287
+  ],
+  "tris": 52
+ },
+ {
+  "name": "cross_beam_08",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   18.63,
+   -9.713,
+   10.209
+  ],
+  "bbox_min": [
+   15.885,
+   -11.628,
+   9.607
+  ],
+  "bbox_max": [
+   20.954,
+   -6.931,
+   11.287
+  ],
+  "tris": 54
+ },
+ {
+  "name": "cross_beam_09",
+  "class": "cross_beam",
+  "label": 3,
+  "centroid": [
+   53.542,
+   -8.78,
+   9.967
+  ],
+  "bbox_min": [
+   51.65,
+   -10.937,
+   9.607
+  ],
+  "bbox_max": [
+   54.159,
+   -6.931,
+   11.287
+  ],
+  "tris": 14
+ },
+ {
+  "name": "pier_cap_01",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -196.052,
+   -9.045,
+   9.206
+  ],
+  "bbox_min": [
+   -197.746,
+   -11.944,
+   8.86
+  ],
+  "bbox_max": [
+   -194.355,
+   -6.057,
+   9.922
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_02",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -160.171,
+   -8.992,
+   9.205
+  ],
+  "bbox_min": [
+   -161.865,
+   -11.892,
+   8.86
+  ],
+  "bbox_max": [
+   -158.474,
+   -6.004,
+   9.921
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_03",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -124.521,
+   -9.045,
+   9.206
+  ],
+  "bbox_min": [
+   -126.215,
+   -11.944,
+   8.86
+  ],
+  "bbox_max": [
+   -122.824,
+   -6.057,
+   9.922
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_04",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -88.64,
+   -8.992,
+   9.205
+  ],
+  "bbox_min": [
+   -90.334,
+   -11.892,
+   8.86
+  ],
+  "bbox_max": [
+   -86.943,
+   -6.004,
+   9.921
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_05",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -52.989,
+   -9.045,
+   9.206
+  ],
+  "bbox_min": [
+   -54.684,
+   -11.944,
+   8.86
+  ],
+  "bbox_max": [
+   -51.293,
+   -6.057,
+   9.922
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_06",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   -17.109,
+   -8.992,
+   9.205
+  ],
+  "bbox_min": [
+   -18.803,
+   -11.892,
+   8.86
+  ],
+  "bbox_max": [
+   -15.412,
+   -6.004,
+   9.921
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_cap_07",
+  "class": "pier_cap",
+  "label": 4,
+  "centroid": [
+   18.542,
+   -9.045,
+   9.206
+  ],
+  "bbox_min": [
+   16.847,
+   -11.944,
+   8.86
+  ],
+  "bbox_max": [
+   20.238,
+   -6.057,
+   9.922
+  ],
+  "tris": 127
+ },
+ {
+  "name": "pier_column_01",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -196.111,
+   -9.053,
+   8.1
+  ],
+  "bbox_min": [
+   -197.164,
+   -11.36,
+   6.64
+  ],
+  "bbox_max": [
+   -194.959,
+   -6.714,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_02",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -160.23,
+   -9.001,
+   8.1
+  ],
+  "bbox_min": [
+   -161.283,
+   -11.308,
+   6.639
+  ],
+  "bbox_max": [
+   -159.079,
+   -6.661,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_03",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -124.58,
+   -9.053,
+   8.1
+  ],
+  "bbox_min": [
+   -125.633,
+   -11.36,
+   6.64
+  ],
+  "bbox_max": [
+   -123.428,
+   -6.714,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_04",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -88.699,
+   -9.001,
+   8.1
+  ],
+  "bbox_min": [
+   -89.752,
+   -11.308,
+   6.639
+  ],
+  "bbox_max": [
+   -87.548,
+   -6.661,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_05",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -53.049,
+   -9.053,
+   8.1
+  ],
+  "bbox_min": [
+   -54.102,
+   -11.36,
+   6.64
+  ],
+  "bbox_max": [
+   -51.897,
+   -6.714,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_06",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   -17.168,
+   -9.001,
+   8.1
+  ],
+  "bbox_min": [
+   -18.221,
+   -11.308,
+   6.639
+  ],
+  "bbox_max": [
+   -16.016,
+   -6.661,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "pier_column_07",
+  "class": "pier_column",
+  "label": 5,
+  "centroid": [
+   18.482,
+   -9.053,
+   8.1
+  ],
+  "bbox_min": [
+   17.429,
+   -11.36,
+   6.64
+  ],
+  "bbox_max": [
+   19.634,
+   -6.714,
+   8.86
+  ],
+  "tris": 83
+ },
+ {
+  "name": "abutment_01",
+  "class": "abutment",
+  "label": 7,
+  "centroid": [
+   -231.192,
+   -8.685,
+   8.508
+  ],
+  "bbox_min": [
+   -232.421,
+   -13.311,
+   6.58
+  ],
+  "bbox_max": [
+   -230.063,
+   -4.059,
+   11.278
+  ],
+  "tris": 32
+ },
+ {
+  "name": "abutment_02",
+  "class": "abutment",
+  "label": 7,
+  "centroid": [
+   53.317,
+   -9.292,
+   8.455
+  ],
+  "bbox_min": [
+   52.225,
+   -13.918,
+   6.655
+  ],
+  "bbox_max": [
+   54.994,
+   -4.666,
+   10.191
+  ],
+  "tris": 28
+ },
+ {
+  "name": "railing_01",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -215.815,
+   -11.591,
+   11.831
+  ],
+  "bbox_min": [
+   -232.0,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -196.035,
+   -11.483,
+   12.101
+  ],
+  "tris": 83
+ },
+ {
+  "name": "railing_02",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -219.235,
+   -6.205,
+   11.673
+  ],
+  "bbox_min": [
+   -232.0,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -196.035,
+   -6.147,
+   12.024
+  ],
+  "tris": 161
+ },
+ {
+  "name": "railing_03",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -176.738,
+   -11.596,
+   11.794
+  ],
+  "bbox_min": [
+   -196.035,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -160.154,
+   -11.557,
+   12.101
+  ],
+  "tris": 114
+ },
+ {
+  "name": "railing_04",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -176.836,
+   -6.204,
+   11.652
+  ],
+  "bbox_min": [
+   -196.035,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -160.154,
+   -6.147,
+   12.023
+  ],
+  "tris": 145
+ },
+ {
+  "name": "railing_05",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -141.381,
+   -11.594,
+   11.755
+  ],
+  "bbox_min": [
+   -160.154,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -124.504,
+   -11.557,
+   12.101
+  ],
+  "tris": 162
+ },
+ {
+  "name": "railing_06",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -141.446,
+   -6.207,
+   11.664
+  ],
+  "bbox_min": [
+   -160.154,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -124.504,
+   -6.147,
+   12.023
+  ],
+  "tris": 207
+ },
+ {
+  "name": "railing_07",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -102.363,
+   -11.587,
+   11.659
+  ],
+  "bbox_min": [
+   -124.504,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -88.623,
+   -11.557,
+   12.101
+  ],
+  "tris": 244
+ },
+ {
+  "name": "railing_08",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -106.161,
+   -6.208,
+   11.677
+  ],
+  "bbox_min": [
+   -124.504,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -88.623,
+   -6.147,
+   12.023
+  ],
+  "tris": 243
+ },
+ {
+  "name": "railing_09",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -74.215,
+   -11.593,
+   11.673
+  ],
+  "bbox_min": [
+   -88.623,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -52.973,
+   -11.557,
+   12.101
+  ],
+  "tris": 219
+ },
+ {
+  "name": "railing_10",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -72.922,
+   -6.217,
+   11.723
+  ],
+  "bbox_min": [
+   -88.623,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -52.973,
+   -6.147,
+   12.023
+  ],
+  "tris": 216
+ },
+ {
+  "name": "railing_11",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -34.388,
+   -11.598,
+   11.734
+  ],
+  "bbox_min": [
+   -52.973,
+   -11.628,
+   11.465
+  ],
+  "bbox_max": [
+   -17.092,
+   -11.557,
+   12.101
+  ],
+  "tris": 225
+ },
+ {
+  "name": "railing_12",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   -34.485,
+   -6.213,
+   11.745
+  ],
+  "bbox_min": [
+   -52.973,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   -17.092,
+   -6.147,
+   12.023
+  ],
+  "tris": 233
+ },
+ {
+  "name": "railing_13",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   1.536,
+   -11.595,
+   11.78
+  ],
+  "bbox_min": [
+   -17.092,
+   -11.628,
+   11.502
+  ],
+  "bbox_max": [
+   18.558,
+   -11.557,
+   12.101
+  ],
+  "tris": 296
+ },
+ {
+  "name": "railing_14",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   1.179,
+   -6.21,
+   11.769
+  ],
+  "bbox_min": [
+   -17.092,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   18.558,
+   -6.147,
+   12.023
+  ],
+  "tris": 283
+ },
+ {
+  "name": "railing_15",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   33.701,
+   -11.593,
+   11.815
+  ],
+  "bbox_min": [
+   18.558,
+   -11.628,
+   11.521
+  ],
+  "bbox_max": [
+   56.66,
+   -11.557,
+   12.101
+  ],
+  "tris": 208
+ },
+ {
+  "name": "railing_16",
+  "class": "railing",
+  "label": 8,
+  "note": "deck parapet",
+  "centroid": [
+   32.964,
+   -6.208,
+   11.789
+  ],
+  "bbox_min": [
+   18.558,
+   -6.226,
+   11.465
+  ],
+  "bbox_max": [
+   56.66,
+   -6.147,
+   12.023
+  ],
+  "tris": 179
+ },
+ {
+  "name": "railing_17",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -196.038,
+   -8.99,
+   9.372
+  ],
+  "bbox_min": [
+   -197.737,
+   -11.945,
+   9.247
+  ],
+  "bbox_max": [
+   -194.357,
+   -6.074,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_18",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -160.158,
+   -8.937,
+   9.371
+  ],
+  "bbox_min": [
+   -161.856,
+   -11.892,
+   9.247
+  ],
+  "bbox_max": [
+   -158.476,
+   -6.021,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_19",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -124.507,
+   -8.99,
+   9.372
+  ],
+  "bbox_min": [
+   -126.206,
+   -11.945,
+   9.247
+  ],
+  "bbox_max": [
+   -122.826,
+   -6.074,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_20",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -88.627,
+   -8.937,
+   9.371
+  ],
+  "bbox_min": [
+   -90.325,
+   -11.892,
+   9.247
+  ],
+  "bbox_max": [
+   -86.945,
+   -6.021,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_21",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -52.976,
+   -8.99,
+   9.372
+  ],
+  "bbox_min": [
+   -54.675,
+   -11.945,
+   9.247
+  ],
+  "bbox_max": [
+   -51.294,
+   -6.074,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_22",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   -17.096,
+   -8.937,
+   9.371
+  ],
+  "bbox_min": [
+   -18.794,
+   -11.892,
+   9.247
+  ],
+  "bbox_max": [
+   -15.414,
+   -6.021,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "railing_23",
+  "class": "railing",
+  "label": 8,
+  "note": "pier-cap inspection platform handrail",
+  "centroid": [
+   18.555,
+   -8.99,
+   9.372
+  ],
+  "bbox_min": [
+   16.856,
+   -11.945,
+   9.247
+  ],
+  "bbox_max": [
+   20.236,
+   -6.074,
+   9.611
+  ],
+  "tris": 161312
+ },
+ {
+  "name": "bearing_01",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -231.603,
+   -10.525,
+   9.459
+  ],
+  "bbox_min": [
+   -231.982,
+   -10.904,
+   9.196
+  ],
+  "bbox_max": [
+   -231.226,
+   -10.147,
+   9.556
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_02",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -231.603,
+   -9.062,
+   9.459
+  ],
+  "bbox_min": [
+   -231.982,
+   -9.441,
+   9.196
+  ],
+  "bbox_max": [
+   -231.226,
+   -8.685,
+   9.556
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_03",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -231.603,
+   -7.579,
+   9.459
+  ],
+  "bbox_min": [
+   -231.982,
+   -7.958,
+   9.196
+  ],
+  "bbox_max": [
+   -231.226,
+   -7.202,
+   9.556
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_04",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -196.769,
+   -10.436,
+   9.513
+  ],
+  "bbox_min": [
+   -197.146,
+   -10.813,
+   9.25
+  ],
+  "bbox_max": [
+   -196.39,
+   -10.057,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_05",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -196.941,
+   -8.943,
+   9.5
+  ],
+  "bbox_min": [
+   -197.318,
+   -9.32,
+   9.237
+  ],
+  "bbox_max": [
+   -196.562,
+   -8.563,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_06",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -196.866,
+   -7.474,
+   9.513
+  ],
+  "bbox_min": [
+   -197.243,
+   -7.851,
+   9.25
+  ],
+  "bbox_max": [
+   -196.487,
+   -7.095,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_07",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -195.534,
+   -8.933,
+   9.5
+  ],
+  "bbox_min": [
+   -195.911,
+   -9.311,
+   9.237
+  ],
+  "bbox_max": [
+   -195.155,
+   -8.554,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_08",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -195.362,
+   -10.426,
+   9.513
+  ],
+  "bbox_min": [
+   -195.74,
+   -10.804,
+   9.25
+  ],
+  "bbox_max": [
+   -194.983,
+   -10.047,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_09",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -195.459,
+   -7.465,
+   9.513
+  ],
+  "bbox_min": [
+   -195.836,
+   -7.842,
+   9.25
+  ],
+  "bbox_max": [
+   -195.08,
+   -7.086,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_10",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -160.888,
+   -10.383,
+   9.512
+  ],
+  "bbox_min": [
+   -161.266,
+   -10.76,
+   9.249
+  ],
+  "bbox_max": [
+   -160.509,
+   -10.004,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_11",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -161.06,
+   -8.89,
+   9.5
+  ],
+  "bbox_min": [
+   -161.437,
+   -9.267,
+   9.236
+  ],
+  "bbox_max": [
+   -160.681,
+   -8.511,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_12",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -160.985,
+   -7.421,
+   9.512
+  ],
+  "bbox_min": [
+   -161.362,
+   -7.798,
+   9.249
+  ],
+  "bbox_max": [
+   -160.606,
+   -7.042,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_13",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -159.653,
+   -8.881,
+   9.5
+  ],
+  "bbox_min": [
+   -160.031,
+   -9.258,
+   9.236
+  ],
+  "bbox_max": [
+   -159.274,
+   -8.502,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_14",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -159.578,
+   -7.412,
+   9.512
+  ],
+  "bbox_min": [
+   -159.956,
+   -7.789,
+   9.249
+  ],
+  "bbox_max": [
+   -159.199,
+   -7.033,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_15",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -159.481,
+   -10.374,
+   9.512
+  ],
+  "bbox_min": [
+   -159.859,
+   -10.751,
+   9.249
+  ],
+  "bbox_max": [
+   -159.103,
+   -9.995,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_16",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -125.238,
+   -10.436,
+   9.513
+  ],
+  "bbox_min": [
+   -125.615,
+   -10.813,
+   9.25
+  ],
+  "bbox_max": [
+   -124.859,
+   -10.057,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_17",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -125.41,
+   -8.943,
+   9.5
+  ],
+  "bbox_min": [
+   -125.787,
+   -9.32,
+   9.237
+  ],
+  "bbox_max": [
+   -125.031,
+   -8.563,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_18",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -125.335,
+   -7.474,
+   9.513
+  ],
+  "bbox_min": [
+   -125.712,
+   -7.851,
+   9.25
+  ],
+  "bbox_max": [
+   -124.956,
+   -7.095,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_19",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -123.831,
+   -10.426,
+   9.513
+  ],
+  "bbox_min": [
+   -124.209,
+   -10.804,
+   9.25
+  ],
+  "bbox_max": [
+   -123.452,
+   -10.047,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_20",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -124.003,
+   -8.933,
+   9.5
+  ],
+  "bbox_min": [
+   -124.38,
+   -9.311,
+   9.237
+  ],
+  "bbox_max": [
+   -123.624,
+   -8.554,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_21",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -123.928,
+   -7.465,
+   9.513
+  ],
+  "bbox_min": [
+   -124.305,
+   -7.842,
+   9.25
+  ],
+  "bbox_max": [
+   -123.549,
+   -7.086,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_22",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -89.529,
+   -8.89,
+   9.5
+  ],
+  "bbox_min": [
+   -89.906,
+   -9.267,
+   9.236
+  ],
+  "bbox_max": [
+   -89.15,
+   -8.511,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_23",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -89.357,
+   -10.383,
+   9.512
+  ],
+  "bbox_min": [
+   -89.734,
+   -10.76,
+   9.249
+  ],
+  "bbox_max": [
+   -88.978,
+   -10.004,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_24",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -89.454,
+   -7.421,
+   9.512
+  ],
+  "bbox_min": [
+   -89.831,
+   -7.798,
+   9.249
+  ],
+  "bbox_max": [
+   -89.075,
+   -7.042,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_25",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -87.95,
+   -10.374,
+   9.512
+  ],
+  "bbox_min": [
+   -88.328,
+   -10.751,
+   9.249
+  ],
+  "bbox_max": [
+   -87.572,
+   -9.995,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_26",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -88.122,
+   -8.881,
+   9.5
+  ],
+  "bbox_min": [
+   -88.5,
+   -9.258,
+   9.236
+  ],
+  "bbox_max": [
+   -87.743,
+   -8.502,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_27",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -88.047,
+   -7.412,
+   9.512
+  ],
+  "bbox_min": [
+   -88.425,
+   -7.789,
+   9.249
+  ],
+  "bbox_max": [
+   -87.668,
+   -7.033,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_28",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -53.707,
+   -10.436,
+   9.513
+  ],
+  "bbox_min": [
+   -54.084,
+   -10.813,
+   9.25
+  ],
+  "bbox_max": [
+   -53.328,
+   -10.057,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_29",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -53.879,
+   -8.943,
+   9.5
+  ],
+  "bbox_min": [
+   -54.256,
+   -9.32,
+   9.237
+  ],
+  "bbox_max": [
+   -53.5,
+   -8.563,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_30",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -53.804,
+   -7.474,
+   9.513
+  ],
+  "bbox_min": [
+   -54.181,
+   -7.851,
+   9.25
+  ],
+  "bbox_max": [
+   -53.425,
+   -7.095,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_31",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -52.3,
+   -10.426,
+   9.513
+  ],
+  "bbox_min": [
+   -52.678,
+   -10.804,
+   9.25
+  ],
+  "bbox_max": [
+   -51.921,
+   -10.047,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_32",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -52.472,
+   -8.933,
+   9.5
+  ],
+  "bbox_min": [
+   -52.849,
+   -9.311,
+   9.237
+  ],
+  "bbox_max": [
+   -52.093,
+   -8.554,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_33",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -52.397,
+   -7.465,
+   9.513
+  ],
+  "bbox_min": [
+   -52.774,
+   -7.842,
+   9.25
+  ],
+  "bbox_max": [
+   -52.018,
+   -7.086,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_34",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -17.826,
+   -10.383,
+   9.512
+  ],
+  "bbox_min": [
+   -18.204,
+   -10.76,
+   9.249
+  ],
+  "bbox_max": [
+   -17.447,
+   -10.004,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_35",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -17.998,
+   -8.89,
+   9.5
+  ],
+  "bbox_min": [
+   -18.375,
+   -9.267,
+   9.236
+  ],
+  "bbox_max": [
+   -17.619,
+   -8.511,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_36",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -17.923,
+   -7.421,
+   9.512
+  ],
+  "bbox_min": [
+   -18.3,
+   -7.798,
+   9.249
+  ],
+  "bbox_max": [
+   -17.544,
+   -7.042,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_37",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -16.591,
+   -8.881,
+   9.5
+  ],
+  "bbox_min": [
+   -16.969,
+   -9.258,
+   9.236
+  ],
+  "bbox_max": [
+   -16.212,
+   -8.502,
+   9.596
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_38",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -16.516,
+   -7.412,
+   9.512
+  ],
+  "bbox_min": [
+   -16.894,
+   -7.789,
+   9.249
+  ],
+  "bbox_max": [
+   -16.137,
+   -7.033,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_39",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   -16.419,
+   -10.374,
+   9.512
+  ],
+  "bbox_min": [
+   -16.797,
+   -10.751,
+   9.249
+  ],
+  "bbox_max": [
+   -16.041,
+   -9.995,
+   9.609
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_40",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   17.824,
+   -10.436,
+   9.513
+  ],
+  "bbox_min": [
+   17.447,
+   -10.813,
+   9.25
+  ],
+  "bbox_max": [
+   18.203,
+   -10.057,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_41",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   17.652,
+   -8.943,
+   9.5
+  ],
+  "bbox_min": [
+   17.275,
+   -9.32,
+   9.237
+  ],
+  "bbox_max": [
+   18.031,
+   -8.563,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_42",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   17.727,
+   -7.474,
+   9.513
+  ],
+  "bbox_min": [
+   17.35,
+   -7.851,
+   9.25
+  ],
+  "bbox_max": [
+   18.106,
+   -7.095,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_43",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   19.231,
+   -10.426,
+   9.513
+  ],
+  "bbox_min": [
+   18.853,
+   -10.804,
+   9.25
+  ],
+  "bbox_max": [
+   19.61,
+   -10.047,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_44",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   19.059,
+   -8.933,
+   9.5
+  ],
+  "bbox_min": [
+   18.682,
+   -9.311,
+   9.237
+  ],
+  "bbox_max": [
+   19.438,
+   -8.554,
+   9.597
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_45",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   19.134,
+   -7.465,
+   9.513
+  ],
+  "bbox_min": [
+   18.757,
+   -7.842,
+   9.25
+  ],
+  "bbox_max": [
+   19.513,
+   -7.086,
+   9.61
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_46",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   53.766,
+   -10.398,
+   9.534
+  ],
+  "bbox_min": [
+   53.389,
+   -10.775,
+   9.271
+  ],
+  "bbox_max": [
+   54.145,
+   -10.019,
+   9.631
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_47",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   53.766,
+   -8.915,
+   9.534
+  ],
+  "bbox_min": [
+   53.389,
+   -9.292,
+   9.271
+  ],
+  "bbox_max": [
+   54.145,
+   -8.536,
+   9.631
+  ],
+  "tris": 1692
+ },
+ {
+  "name": "bearing_48",
+  "class": "bearing",
+  "label": 9,
+  "centroid": [
+   53.766,
+   -7.452,
+   9.534
+  ],
+  "bbox_min": [
+   53.389,
+   -7.83,
+   9.271
+  ],
+  "bbox_max": [
+   54.145,
+   -7.073,
+   9.631
+  ],
+  "tris": 1692
+ }
+]
