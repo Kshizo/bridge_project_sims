@@ -77,6 +77,7 @@ survey:                        # all offsets relative to geometry found in parts
 motion:
   v_max: 2.0                   # m/s on mapping passes (open air)
   v_transit: 5.0               # m/s moving between passes (open air; still slowed near structure)
+  v_vertical_max: 2.0          # m/s, vertical part of the speed (ArduPilot climbs at ~2.5 m/s by default)
   v_min: 0.6                   # m/s at min_clearance
   slow_clearance: 4.0          # m: below this clearance speed ramps down to v_min
   accel: 1.2                   # m/s^2

@@ -290,6 +290,7 @@ class Planner:
         k = max(1, int(0.5 / self.step)); turn = np.zeros(len(P))
         turn[k:-k] = np.degrees(np.arccos(np.clip(np.sum(Tg[2 * k:] * Tg[:-2 * k], 1), -1, 1)))
         V = np.minimum(V, np.where(turn > 60, 0.3, np.where(turn > 25, 0.6, 99)))
+        V = np.minimum(V, mo["v_vertical_max"] / np.maximum(np.abs(Tg[:, 2]), 1e-3))   # climbs / descents within the autopilot's limits
         dyaw = np.abs(np.gradient(yaw, S)) + 1e-6
         V = np.minimum(V, math.radians(mo["yaw_rate_max_deg"]) / dyaw)
         V[0] = V[-1] = 0
