@@ -20,3 +20,9 @@ Use `--no-gui`: the railing meshes are very heavy and the Gazebo window slows th
 Files: `scene1_ardupilot.sdf` (world), `scene1_parts/` (meshes + parts.json, ground truth),
 `config.yaml`, `tools_scene1_parts.py` / `tools_skp_obj_to_gz.py` (how the parts were made from the
 SketchUp export).
+
+Defects: `scene1_defects/` holds 22 CODEBRIM crack / spalling photos (val tiles, never trained on) pasted
+on the pier side panels and ends, the outer girder webs and the abutment fronts (all reachable from the
+side passes), with every annotated polygon in world coordinates in `defects_gt.json`.
+`tools_scene1_defects.py <tiles/images/val> <tiles/labels/val>` rebuilds them (re-run it after
+`tools_scene1_parts.py`, which rewrites parts.json).

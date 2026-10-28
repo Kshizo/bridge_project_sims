@@ -17,3 +17,8 @@ it gets GPS back twice per loop. The drone takes off from a pad on the deck at m
 Files: `scene2_ardupilot.sdf` (world), `scene2_parts/` (meshes + parts.json, ground truth),
 `config.yaml`, `source/` (the SketchUp model and its structure mesh), `tools_scene2_rebuild.py`
 (rebuilds `scene2_parts/` and the world's bridge block from `source/`).
+
+Defects: `scene2_defects/` holds 22 CODEBRIM crack / spalling photos (val tiles, never trained on) pasted
+on the round columns, pier caps, outer girders, deck soffit and abutments, with every annotated polygon
+in world coordinates in `defects_gt.json`. `tools_scene2_defects.py <tiles/images/val> <tiles/labels/val>`
+rebuilds them (re-run it after `tools_scene2_rebuild.py`, which rewrites parts.json).

@@ -1,0 +1,131 @@
+newmtl defect_C1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C1.jpg
+
+newmtl defect_C2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C2.jpg
+
+newmtl defect_C3
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C3.jpg
+
+newmtl defect_C4
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C4.jpg
+
+newmtl defect_C5
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C5.jpg
+
+newmtl defect_C6
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C6.jpg
+
+newmtl defect_C7
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C7.jpg
+
+newmtl defect_C8
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/C8.jpg
+
+newmtl defect_P1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/P1.jpg
+
+newmtl defect_P2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/P2.jpg
+
+newmtl defect_P3
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/P3.jpg
+
+newmtl defect_P4
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/P4.jpg
+
+newmtl defect_G1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/G1.jpg
+
+newmtl defect_G2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/G2.jpg
+
+newmtl defect_G3
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/G3.jpg
+
+newmtl defect_G4
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/G4.jpg
+
+newmtl defect_G5
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/G5.jpg
+
+newmtl defect_U1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/U1.jpg
+
+newmtl defect_U2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/U2.jpg
+
+newmtl defect_U3
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/U3.jpg
+
+newmtl defect_A1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/A1.jpg
+
+newmtl defect_A2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+map_Kd textures/A2.jpg

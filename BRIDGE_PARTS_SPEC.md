@@ -24,7 +24,7 @@ etc. being fused into the same mesh.
 | 23 | vehicle         | cars, buses, people                                        |
 | 24 | road            | approach roads / pavements off the bridge                  |
 | 25 | other           | buildings, everything else                                 |
-| 30 | defect          | crack / spalling / rebar decals (Scene-3 `scene3_defects`) |
+| 30 | defect          | crack / spalling / rebar decals (`sceneN_defects`, all scenes) |
 
 ## Output layout per scene N (in ~/sim_worlds)
 - `sceneN_parts/` : one OBJ per component instance (`<class>_<k>.obj`, e.g. `pier_column_03.obj`),

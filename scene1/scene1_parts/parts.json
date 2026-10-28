@@ -2814,5 +2814,13 @@
    9.631
   ],
   "tris": 1692
+ },
+ {
+  "model": "scene1_defects",
+  "name": "defects",
+  "class": "defect",
+  "label": 30,
+  "file": "../scene1_defects/defects.obj",
+  "ground_truth": "../scene1_defects/defects_gt.json"
  }
 ]

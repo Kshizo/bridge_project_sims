@@ -131,6 +131,14 @@
     </model>
     <!-- END generated -->
 
+    <!-- CODEBRIM crack/spalling decals (tools_scene2_defects.py); ground truth in scene2_defects/defects_gt.json -->
+    <model name="scene2_defects">
+      <static>true</static>
+      <link name="defects">
+        <visual name="visual"><cast_shadows>false</cast_shadows><geometry><mesh><uri>model://scene2_defects/defects.obj</uri></mesh></geometry><plugin filename="gz-sim-label-system" name="gz::sim::systems::Label"><label>30</label></plugin></visual>
+      </link>
+    </model>
+
     <!-- invisible take-off/landing pad on the deck: DART sticks to triangle-mesh contacts, a box is clean -->
     <model name="deck_pad">
       <static>true</static>

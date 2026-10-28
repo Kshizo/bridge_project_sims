@@ -18,7 +18,8 @@
   "vegetation": 22,
   "vehicle": 23,
   "road": 24,
-  "other": 25
+  "other": 25,
+  "defect": 30
  },
  "parts": [
   {
@@ -1238,6 +1239,14 @@
     0.0
    ],
    "tris": 2
+  },
+  {
+   "model": "scene2_defects",
+   "name": "defects",
+   "class": "defect",
+   "label": 30,
+   "file": "../scene2_defects/defects.obj",
+   "ground_truth": "../scene2_defects/defects_gt.json"
   }
  ]
 }

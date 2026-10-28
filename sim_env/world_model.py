@@ -26,6 +26,8 @@ def load_parts(parts_dir, bridge_model=None, region=None):
     labels = {} if isinstance(meta, list) else meta.get("labels", {})
     out = []
     for p in parts:
+        if p["class"] == "defect":                 # decals painted on existing faces, not bridge geometry
+            continue
         p = dict(p)
         p["obj"] = os.path.join(parts_dir, p.get("file") or p["name"] + ".obj")
         env = p["class"] in ENV_SOLID | {"water"}

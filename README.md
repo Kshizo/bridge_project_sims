@@ -18,6 +18,7 @@ Three scenes, one folder each:
 |---|---|
 | `sceneN/sceneN_ardupilot.sdf` | the world: bridge (one labelled link per component), river, banks, the drone on a deck pad |
 | `sceneN/sceneN_parts/` | one mesh per bridge component + `parts.json` (ground truth, used only by the simulated world and the evaluation tools) |
+| `sceneN/sceneN_defects/` | CODEBRIM crack / spalling photos pasted on the bridge (label 30) + `defects_gt.json` (every defect polygon in world coordinates), for testing a defect detector on the camera footage; built by `sceneN/tools_sceneN_defects.py` |
 | `sceneN/config.yaml` | **every** tunable for that scene (route, speeds, clearances, wind, noise, mapping, cloud analysis) |
 | `sceneN/run.sh` | `./run.sh flight0`, `./run.sh survey`, `./run.sh stop` |
 | `sceneN/output/` | created by a run: map, trajectory, plans, camera video, logs (not in git) |
